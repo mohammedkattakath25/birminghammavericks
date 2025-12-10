@@ -198,7 +198,7 @@
       color: #111827;
       overflow: hidden;
       isolation: isolate;
-      background: linear-gradient(135deg, #e0f2ff, #f9fafb);
+      background: linear-gradient(135deg, #e0f2ff, #f9fafb); /* fallback */
     }
 
     .hero-media {
@@ -492,7 +492,7 @@
       max-width: 26rem;
     }
 
-    /* ABOUT */
+    /* ABOUT – colourful section */
 
     #about {
       background:
@@ -587,7 +587,7 @@
       color: #cbd5f5;
     }
 
-    /* FIXTURES */
+    /* FIXTURES – colourful cards */
 
     #fixtures {
       background:
@@ -655,7 +655,68 @@
       color: #1d4ed8;
     }
 
-    /* SQUADS */
+    #fixtures .fixture-card {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, #ffffff, #eef2ff);
+      border-radius: 22px;
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+    }
+
+    #fixtures .fixture-card::before {
+      content: "";
+      position: absolute;
+      inset: -30%;
+      background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.18), transparent 55%);
+      pointer-events: none;
+      opacity: 0.9;
+    }
+
+    #fixtures .fixture-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      border-top: 4px solid var(--accent, #3b82f6);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    #fixtures .fixture-card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    #fixtures .fixture-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    #fixtures .fixture-card h3::after {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent, #3b82f6);
+    }
+
+    .fixture-card--upcoming {
+      --accent: #3b82f6;
+    }
+
+    .fixture-card--recent {
+      --accent: #22c55e;
+    }
+
+    .fixture-card--stats {
+      --accent: #f59e0b;
+    }
+
+    /* SQUAD & STRUCTURE */
 
     #squads {
       background: linear-gradient(135deg, #eef2ff, #e0f2fe);
@@ -1399,7 +1460,7 @@
                 <input
                   type="hidden"
                   name="_redirect"
-                  value="https://birminghammaverickscc.uk/thank-you.html"
+                  value="https://birminghammaverickscc.com/thank-you.html"
                 />
 
                 <div>
