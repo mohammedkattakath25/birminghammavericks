@@ -8,7 +8,6 @@
     name="description"
     content="Birmingham Mavericks Cricket Club (BMCC) – Sunday league cricket in the West Midlands, based at Old Halesonians Cricket Club. Fixtures, results, players and membership info."
   />
-
   <style>
     :root {
       --primary: #0777c8;
@@ -198,7 +197,7 @@
       color: #111827;
       overflow: hidden;
       isolation: isolate;
-      background: linear-gradient(135deg, #e0f2ff, #f9fafb); /* fallback */
+      background: linear-gradient(135deg, #e0f2ff, #f9fafb);
     }
 
     .hero-media {
@@ -716,7 +715,7 @@
       --accent: #f59e0b;
     }
 
-    /* SQUAD & STRUCTURE */
+    /* SQUADS & STRUCTURE */
 
     #squads {
       background: linear-gradient(135deg, #eef2ff, #e0f2fe);
@@ -791,6 +790,10 @@
 
     /* GALLERY */
 
+    #gallery {
+      background: #ffffff;
+    }
+
     .gallery-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -855,13 +858,6 @@
       flex-shrink: 0;
     }
 
-    form {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0.65rem;
-      font-size: 0.85rem;
-    }
-
     label {
       font-size: 0.8rem;
       font-weight: 500;
@@ -893,6 +889,21 @@
     small.form-hint {
       font-size: 0.7rem;
       color: var(--muted);
+    }
+
+    /* Embedded Google Form wrapper */
+
+    .form-embed {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.8);
+      padding: 0.75rem;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    }
+
+    .form-embed iframe {
+      width: 100%;
+      border: 0;
     }
 
     /* Contact map card */
@@ -1023,7 +1034,7 @@
         <nav class="nav-links">
           <a href="#about">About</a>
           <a href="#fixtures">Fixtures</a>
-          <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket</a>
+          <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener noreferrer">Play-Cricket</a>
           <a href="#squads">Squads</a>
           <a href="#gallery">Gallery</a>
           <a href="#join">Join Us</a>
@@ -1078,7 +1089,7 @@
                 class="btn-outline"
                 href="https://birminghammavericks.play-cricket.com/home"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 View stats on Play-Cricket
               </a>
@@ -1217,7 +1228,7 @@
             <h2>Fixtures &amp; Results</h2>
             <p>
               Snapshot of upcoming games and recent results. Full fixtures, tables and player stats are on our
-              <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket page</a>.
+              <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener noreferrer">Play-Cricket page</a>.
             </p>
           </div>
 
@@ -1414,33 +1425,28 @@
                 <li>
                   <span class="bullet"></span>
                   <span>
-                    <strong>Process:</strong> Send an enquiry via the form or Instagram, we’ll invite you to nets or a
-                    friendly, then add you into the squad group if it’s a good fit.
+                    <strong>Process:</strong> Complete the form alongside to register your interest. We’ll invite you to nets
+                    or a friendly, then add you into the squad group if it’s a good fit.
                   </span>
                 </li>
               </ul>
             </div>
-<div style="
-  background:#ffffff;
-  border-radius:16px;
-  border:1px solid rgba(148,163,184,0.8);
-  padding:0.75rem;
-  box-shadow:0 10px 25px rgba(15, 23, 42, 0.08);
-">
-  <iframe
-    src="https://docs.google.com/forms/d/e/1FAIpQLSedwBfmbT0FNRdZN8xxaRwCidUvCf66CCcFiWbqaRJ9Nxb_hg/viewform?embedded=true"
-    width="100%"
-    height="900"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-    style="border:0;"
-  >
-    Loading…
-  </iframe>
-</div>
 
-           
+            <div>
+              <div class="form-embed">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSedwBfmbT0FNRdZN8xxaRwCidUvCf66CCcFiWbqaRJ9Nxb_hg/viewform?embedded=true"
+                  height="900"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                >
+                  Loading…
+                </iframe>
+              </div>
+              <small class="form-hint">
+                Submitted responses go directly to the club committee via our Google account.
+              </small>
             </div>
           </div>
         </div>
@@ -1472,7 +1478,7 @@
                   <span>
                     <strong>Home ground:</strong> Located in: Old Halesonians Association Community Sports Centre<br />
                     Wassell Grove Ln, Hagley, Stourbridge DY9 9JP<br />
-                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">
+                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener noreferrer">
                       View on Google Maps
                     </a>
                   </span>
@@ -1488,7 +1494,7 @@
                   <span class="bullet"></span>
                   <span>
                     <strong>Instagram:</strong>
-                    <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">
+                    <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener noreferrer">
                       @birminghammaverickscc
                     </a>
                   </span>
@@ -1532,4 +1538,3 @@
   </script>
 </body>
 </html>
-
