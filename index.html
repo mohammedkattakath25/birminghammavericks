@@ -8,6 +8,7 @@
     name="description"
     content="Birmingham Mavericks Cricket Club (BMCC) – Sunday league cricket in the West Midlands, based at Old Halesonians Cricket Club. Fixtures, results, players and membership info."
   />
+
   <style>
     :root {
       --primary: #0777c8;
@@ -715,7 +716,7 @@
       --accent: #f59e0b;
     }
 
-    /* SQUADS */
+    /* SQUAD & STRUCTURE */
 
     #squads {
       background: linear-gradient(135deg, #eef2ff, #e0f2fe);
@@ -789,10 +790,6 @@
     }
 
     /* GALLERY */
-
-    #gallery {
-      background: #ffffff;
-    }
 
     .gallery-grid {
       display: grid;
@@ -898,6 +895,23 @@
       color: var(--muted);
     }
 
+    /* Google Form wrapper */
+
+    .google-form-wrapper {
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .google-form-wrapper iframe {
+      width: 100%;
+      border: 0;
+      min-height: 800px;
+    }
+
     /* Contact map card */
 
     .map-card {
@@ -992,6 +1006,10 @@
       .map-embed iframe {
         height: 220px;
       }
+
+      .google-form-wrapper iframe {
+        min-height: 900px;
+      }
     }
 
     @media (max-width: 520px) {
@@ -1026,7 +1044,7 @@
         <nav class="nav-links">
           <a href="#about">About</a>
           <a href="#fixtures">Fixtures</a>
-          <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener noreferrer">Play-Cricket</a>
+          <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket</a>
           <a href="#squads">Squads</a>
           <a href="#gallery">Gallery</a>
           <a href="#join">Join Us</a>
@@ -1081,7 +1099,7 @@
                 class="btn-outline"
                 href="https://birminghammavericks.play-cricket.com/home"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 View stats on Play-Cricket
               </a>
@@ -1220,7 +1238,7 @@
             <h2>Fixtures &amp; Results</h2>
             <p>
               Snapshot of upcoming games and recent results. Full fixtures, tables and player stats are on our
-              <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener noreferrer">Play-Cricket page</a>.
+              <a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket page</a>.
             </p>
           </div>
 
@@ -1417,7 +1435,7 @@
                 <li>
                   <span class="bullet"></span>
                   <span>
-                    <strong>Process:</strong> Send an enquiry via the form and we’ll invite you to nets or a
+                    <strong>Process:</strong> Send an enquiry via the form or Instagram, we’ll invite you to nets or a
                     friendly, then add you into the squad group if it’s a good fit.
                   </span>
                 </li>
@@ -1425,62 +1443,16 @@
             </div>
 
             <div>
-              <!-- FormSubmit: sends email to birminghammaverickscc@gmail.com -->
-              <form
-                action="https://formsubmit.co/birminghammaverickscc@gmail.com"
-                method="POST"
-              >
-                <div>
-                  <label for="name">Name</label>
-                  <input id="name" name="Name" type="text" placeholder="Your full name" required />
-                </div>
-                <div>
-                  <label for="email">Email address</label>
-                  <input id="email" name="Email" type="email" placeholder="you@example.com" required />
-                </div>
-                <div>
-                  <label for="role">Primary role</label>
-                  <input
-                    id="role"
-                    name="Primary role"
-                    type="text"
-                    placeholder="Top-order bat, all-rounder, spinner, keeper…"
-                    required
-                  />
-                </div>
-                <div>
-                  <label for="message">Cricket background &amp; availability</label>
-                  <textarea
-                    id="message"
-                    name="Cricket background & availability"
-                    placeholder="Tell us your experience, preferred formats and Sunday availability."
-                    required
-                  ></textarea>
-                </div>
-
-                <!-- Honeypot -->
-                <input type="text" name="_honey" style="display:none" />
-
-                <!-- Disable FormSubmit captcha -->
-                <input type="hidden" name="_captcha" value="false" />
-
-                <!-- Email subject -->
-                <input type="hidden" name="_subject" value="New player enquiry - Birmingham Mavericks CC" />
-
-                <!-- Redirect after submit (you already have thank-you.html) -->
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://birminghammaverickscc.uk/thank-you.html"
-                />
-
-                <div>
-                  <button type="submit" class="btn-primary">Submit enquiry</button>
-                  <small class="form-hint">
-                    Your details will be emailed to the club committee – we’ll usually respond within a few days.
-                  </small>
-                </div>
-              </form>
+              <!-- Embedded Google Form -->
+              <div class="google-form-wrapper">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSedwBfmbT0FNRdZN8xxaRwCidUvCf66CCcFiWbqaRJ9Nxb_hg/viewform?embedded=true"
+                  marginheight="0"
+                  marginwidth="0"
+                >
+                  Loading…
+                </iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -1512,7 +1484,7 @@
                   <span>
                     <strong>Home ground:</strong> Located in: Old Halesonians Association Community Sports Centre<br />
                     Wassell Grove Ln, Hagley, Stourbridge DY9 9JP<br />
-                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener noreferrer">
+                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">
                       View on Google Maps
                     </a>
                   </span>
@@ -1528,7 +1500,7 @@
                   <span class="bullet"></span>
                   <span>
                     <strong>Instagram:</strong>
-                    <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">
                       @birminghammaverickscc
                     </a>
                   </span>
