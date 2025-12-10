@@ -655,68 +655,7 @@
       color: #1d4ed8;
     }
 
-    #fixtures .fixture-card {
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(135deg, #ffffff, #eef2ff);
-      border-radius: 22px;
-      border: 1px solid rgba(148, 163, 184, 0.45);
-      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
-    }
-
-    #fixtures .fixture-card::before {
-      content: "";
-      position: absolute;
-      inset: -30%;
-      background:
-        radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), transparent 55%),
-        radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.18), transparent 55%);
-      pointer-events: none;
-      opacity: 0.9;
-    }
-
-    #fixtures .fixture-card::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      border-top: 4px solid var(--accent, #3b82f6);
-      opacity: 0.9;
-      pointer-events: none;
-    }
-
-    #fixtures .fixture-card > * {
-      position: relative;
-      z-index: 1;
-    }
-
-    #fixtures .fixture-card h3 {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    #fixtures .fixture-card h3::after {
-      content: "";
-      width: 7px;
-      height: 7px;
-      border-radius: 999px;
-      background: var(--accent, #3b82f6);
-    }
-
-    .fixture-card--upcoming {
-      --accent: #3b82f6;
-    }
-
-    .fixture-card--recent {
-      --accent: #22c55e;
-    }
-
-    .fixture-card--stats {
-      --accent: #f59e0b;
-    }
-
-    /* SQUAD & STRUCTURE */
+    /* SQUADS */
 
     #squads {
       background: linear-gradient(135deg, #eef2ff, #e0f2fe);
@@ -895,23 +834,6 @@
       color: var(--muted);
     }
 
-    /* Google Form wrapper */
-
-    .google-form-wrapper {
-      width: 100%;
-      border-radius: 16px;
-      overflow: hidden;
-      background: #ffffff;
-      border: 1px solid rgba(148, 163, 184, 0.5);
-      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
-    }
-
-    .google-form-wrapper iframe {
-      width: 100%;
-      border: 0;
-      min-height: 800px;
-    }
-
     /* Contact map card */
 
     .map-card {
@@ -1005,10 +927,6 @@
 
       .map-embed iframe {
         height: 220px;
-      }
-
-      .google-form-wrapper iframe {
-        min-height: 900px;
       }
     }
 
@@ -1443,16 +1361,54 @@
             </div>
 
             <div>
-              <!-- Embedded Google Form -->
-              <div class="google-form-wrapper">
-                <iframe
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSedwBfmbT0FNRdZN8xxaRwCidUvCf66CCcFiWbqaRJ9Nxb_hg/viewform?embedded=true"
-                  marginheight="0"
-                  marginwidth="0"
-                >
-                  Loading…
-                </iframe>
-              </div>
+              <!-- Replace YOUR_FORMSPREE_ID with your actual Formspree form ID -->
+              <form
+                action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+                method="POST"
+              >
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" placeholder="Your full name" required />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div>
+                  <label for="role">Primary role</label>
+                  <input
+                    id="role"
+                    name="role"
+                    type="text"
+                    placeholder="Top-order bat, all-rounder, spinner, keeper…"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="message">Brief cricket background</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us your experience, preferred formats and Sunday availability."
+                    required
+                  ></textarea>
+                </div>
+
+                <input type="text" name="_gotcha" style="display:none" />
+
+                <input
+                  type="hidden"
+                  name="_redirect"
+                  value="https://birminghammaverickscc.uk/thank-you.html"
+                />
+
+                <div>
+                  <button type="submit" class="btn-primary">Submit enquiry</button>
+                  <small class="form-hint">
+                    Your details will be emailed to the club committee – we’ll usually respond within a few days.
+                  </small>
+                </div>
+              </form>
             </div>
           </div>
         </div>
