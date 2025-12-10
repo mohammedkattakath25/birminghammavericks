@@ -491,7 +491,7 @@
       max-width: 26rem;
     }
 
-    /* ABOUT – colourful section */
+    /* ABOUT */
 
     #about {
       background:
@@ -586,7 +586,7 @@
       color: #cbd5f5;
     }
 
-    /* FIXTURES – colourful cards */
+    /* FIXTURES */
 
     #fixtures {
       background:
@@ -715,7 +715,7 @@
       --accent: #f59e0b;
     }
 
-    /* SQUADS & STRUCTURE */
+    /* SQUADS */
 
     #squads {
       background: linear-gradient(135deg, #eef2ff, #e0f2fe);
@@ -858,6 +858,13 @@
       flex-shrink: 0;
     }
 
+    form {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+      font-size: 0.85rem;
+    }
+
     label {
       font-size: 0.8rem;
       font-weight: 500;
@@ -889,21 +896,6 @@
     small.form-hint {
       font-size: 0.7rem;
       color: var(--muted);
-    }
-
-    /* Embedded Google Form wrapper */
-
-    .form-embed {
-      background: #ffffff;
-      border-radius: 16px;
-      border: 1px solid rgba(148, 163, 184, 0.8);
-      padding: 0.75rem;
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
-    }
-
-    .form-embed iframe {
-      width: 100%;
-      border: 0;
     }
 
     /* Contact map card */
@@ -1425,28 +1417,70 @@
                 <li>
                   <span class="bullet"></span>
                   <span>
-                    <strong>Process:</strong> Complete the form alongside to register your interest. We’ll invite you to nets
-                    or a friendly, then add you into the squad group if it’s a good fit.
+                    <strong>Process:</strong> Send an enquiry via the form and we’ll invite you to nets or a
+                    friendly, then add you into the squad group if it’s a good fit.
                   </span>
                 </li>
               </ul>
             </div>
 
             <div>
-              <div class="form-embed">
-                <iframe
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSedwBfmbT0FNRdZN8xxaRwCidUvCf66CCcFiWbqaRJ9Nxb_hg/viewform?embedded=true"
-                  height="900"
-                  frameborder="0"
-                  marginheight="0"
-                  marginwidth="0"
-                >
-                  Loading…
-                </iframe>
-              </div>
-              <small class="form-hint">
-                Submitted responses go directly to the club committee via our Google account.
-              </small>
+              <!-- FormSubmit: sends email to birminghammaverickscc@gmail.com -->
+              <form
+                action="https://formsubmit.co/birminghammaverickscc@gmail.com"
+                method="POST"
+              >
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" name="Name" type="text" placeholder="Your full name" required />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input id="email" name="Email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div>
+                  <label for="role">Primary role</label>
+                  <input
+                    id="role"
+                    name="Primary role"
+                    type="text"
+                    placeholder="Top-order bat, all-rounder, spinner, keeper…"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="message">Cricket background &amp; availability</label>
+                  <textarea
+                    id="message"
+                    name="Cricket background & availability"
+                    placeholder="Tell us your experience, preferred formats and Sunday availability."
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display:none" />
+
+                <!-- Disable FormSubmit captcha -->
+                <input type="hidden" name="_captcha" value="false" />
+
+                <!-- Email subject -->
+                <input type="hidden" name="_subject" value="New player enquiry - Birmingham Mavericks CC" />
+
+                <!-- Redirect after submit (you already have thank-you.html) -->
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://birminghammaverickscc.uk/thank-you.html"
+                />
+
+                <div>
+                  <button type="submit" class="btn-primary">Submit enquiry</button>
+                  <small class="form-hint">
+                    Your details will be emailed to the club committee – we’ll usually respond within a few days.
+                  </small>
+                </div>
+              </form>
             </div>
           </div>
         </div>
