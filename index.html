@@ -21,11 +21,8 @@
       --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.18);
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -34,31 +31,13 @@
       line-height: 1.6;
     }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
 
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    .page {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 1.25rem;
-    }
+    .page { min-height: 100vh; display: flex; flex-direction: column; }
+    .container { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
 
     /* HEADER / NAV */
-
     header {
       position: sticky;
       top: 0;
@@ -76,58 +55,16 @@
       gap: 1rem;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
+    .brand { display: flex; align-items: center; gap: 0.75rem; }
+    .brand-logo { height: 52px; display: flex; align-items: center; }
+    .brand-logo img { height: 100%; width: auto; display: block; }
 
-    .brand-logo {
-      height: 52px;
-      display: flex;
-      align-items: center;
-    }
+    .brand-text { display: flex; flex-direction: column; line-height: 1.1; color: #e5e7eb; }
+    .brand-title { font-size: 1rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+    .brand-sub { font-size: 0.7rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.16em; }
 
-    .brand-logo img {
-      height: 100%;
-      width: auto;
-      display: block;
-    }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.1;
-      color: #e5e7eb;
-    }
-
-    .brand-title {
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-
-    .brand-sub {
-      font-size: 0.7rem;
-      color: #9ca3af;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 1.4rem;
-      font-size: 0.9rem;
-    }
-
-    .nav-links a {
-      padding: 0.35rem 0;
-      position: relative;
-      color: #cbd5f5;
-      font-weight: 500;
-    }
-
+    .nav-links { display: flex; gap: 1.4rem; font-size: 0.9rem; }
+    .nav-links a { padding: 0.35rem 0; position: relative; color: #cbd5f5; font-weight: 500; }
     .nav-links a::after {
       content: "";
       position: absolute;
@@ -139,24 +76,10 @@
       border-radius: 999px;
       transition: width 0.18s ease-out;
     }
+    .nav-links a:hover::after { width: 18px; }
 
-    .nav-links a:hover::after {
-      width: 18px;
-    }
-
-    .nav-cta {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .nav-cta small {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #9ca3af;
-      display: none;
-    }
+    .nav-cta { display: flex; align-items: center; gap: 0.75rem; }
+    .nav-cta small { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: #9ca3af; display: none; }
 
     .btn-primary,
     .btn-outline {
@@ -171,6 +94,7 @@
       justify-content: center;
       gap: 0.4rem;
       white-space: nowrap;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
     }
 
     .btn-primary {
@@ -178,45 +102,26 @@
       color: #f9fafb;
       box-shadow: 0 14px 30px rgba(15, 23, 42, 0.4);
     }
-
-    .btn-primary:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.6);
-    }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 20px 40px rgba(15, 23, 42, 0.6); }
 
     .btn-outline {
       border-color: rgba(148, 163, 184, 0.7);
       color: #111827;
       background: #ffffff;
     }
+    .btn-outline:hover { transform: translateY(-1px); box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08); }
 
     /* HERO WITH VIDEO */
-
     .hero {
       position: relative;
       padding: 3.3rem 0 2.8rem;
-      color: #111827;
       overflow: hidden;
       isolation: isolate;
       background: linear-gradient(135deg, #e0f2ff, #f9fafb);
     }
 
-    .hero-media {
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-      overflow: hidden;
-      pointer-events: none;
-    }
-
-    .hero-media video {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      filter: brightness(0.45) saturate(1.3);
-    }
+    .hero-media { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+    .hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(0.45) saturate(1.3); }
 
     .hero-overlay {
       position: absolute;
@@ -246,32 +151,16 @@
       margin-bottom: 0.8rem;
     }
 
-    .hero h1 {
-      font-size: clamp(2.1rem, 3.4vw, 2.8rem);
-      letter-spacing: 0.02em;
-      margin-bottom: 0.75rem;
-    }
-
+    .hero h1 { font-size: clamp(2.1rem, 3.4vw, 2.8rem); letter-spacing: 0.02em; margin-bottom: 0.75rem; }
     .hero h1 span {
-      background: linear-gradient(120deg, var(--secondary), var(--primary));
+      background: linear-gradient(120deg, var(--secondary), #60a5fa);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
     }
 
-    .hero-sub {
-      font-size: 0.97rem;
-      color: #e5e7eb;
-      max-width: 32rem;
-      margin-bottom: 1.3rem;
-    }
-
-    .hero-pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 1.7rem;
-    }
+    .hero-sub { font-size: 0.97rem; color: #e5e7eb; max-width: 32rem; margin-bottom: 1.3rem; }
+    .hero-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.7rem; }
 
     .pill {
       font-size: 0.75rem;
@@ -283,37 +172,16 @@
       backdrop-filter: blur(8px);
     }
 
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-bottom: 1.25rem;
-    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .hero-actions .btn-outline { background: #f9fafb; }
 
-    .hero-actions .btn-outline {
-      background: #f9fafb;
-    }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.78rem; color: #e5e7eb; }
+    .hero-meta strong { display: block; color: #f9fafb; font-size: 0.9rem; }
 
-    .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      font-size: 0.78rem;
-      color: #e5e7eb;
-    }
-
-    .hero-meta strong {
-      display: block;
-      color: #f9fafb;
-      font-size: 0.9rem;
-    }
-
-    .hero-right {
-      position: relative;
-    }
+    .hero-right { position: relative; }
 
     .hero-card {
-      background: radial-gradient(circle at 10% 0%, #1d4ed81f, #0b1120);
+      background: radial-gradient(circle at 10% 0%, rgba(29,78,216,.18), rgba(11,17,32,.98));
       border-radius: 28px;
       padding: 1.4rem 1.5rem;
       color: #e5e7eb;
@@ -332,19 +200,8 @@
       pointer-events: none;
     }
 
-    .fixture-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1rem;
-    }
-
-    .fixture-header h2 {
-      font-size: 0.88rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: #9ca3af;
-    }
+    .fixture-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .fixture-header h2 { font-size: 0.88rem; letter-spacing: 0.16em; text-transform: uppercase; color: #cbd5f5; }
 
     .fixture-badge {
       padding: 0.2rem 0.7rem;
@@ -355,24 +212,9 @@
       background: rgba(22, 163, 74, 0.12);
     }
 
-    .fixture-main {
-      display: grid;
-      grid-template-columns: 1.3fr 0.9fr;
-      gap: 1.1rem;
-      margin-bottom: 1.1rem;
-    }
-
-    .fixture-teams {
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-    }
-
-    .fixture-team {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
+    .fixture-main { display: grid; grid-template-columns: 1.3fr 0.9fr; gap: 1.1rem; margin-bottom: 1.1rem; }
+    .fixture-teams { display: flex; flex-direction: column; gap: 0.6rem; }
+    .fixture-team { display: flex; align-items: center; gap: 0.5rem; }
 
     .fixture-team span.badge {
       width: 26px;
@@ -385,57 +227,30 @@
       font-size: 0.7rem;
       font-weight: 700;
     }
+    .fixture-team span.badge.away { background: radial-gradient(circle at 10% 10%, #38bdf8, #020617); }
 
-    .fixture-team span.badge.away {
-      background: radial-gradient(circle at 10% 10%, #38bdf8, #020617);
-    }
+    .fixture-team .name { font-size: 0.88rem; font-weight: 600; }
+    .fixture-team .tag { font-size: 0.7rem; color: #cbd5f5; text-transform: uppercase; letter-spacing: 0.16em; }
 
-    .fixture-team .name {
-      font-size: 0.88rem;
-      font-weight: 600;
-    }
-
-    .fixture-team .tag {
-      font-size: 0.7rem;
-      color: #9ca3af;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .fixture-meta {
-      font-size: 0.78rem;
-      color: #9ca3af;
-      display: flex;
-      flex-direction: column;
-      gap: 0.45rem;
-    }
-
-    .fixture-meta strong {
-      color: #e5e7eb;
-      font-size: 0.82rem;
-    }
+    .fixture-meta { font-size: 0.78rem; color: #cbd5f5; display: flex; flex-direction: column; gap: 0.45rem; }
+    .fixture-meta strong { color: #e5e7eb; font-size: 0.82rem; }
 
     .fixture-foot {
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-size: 0.75rem;
-      border-top: 1px dashed rgba(75, 85, 99, 0.8);
+      border-top: 1px dashed rgba(148, 163, 184, 0.45);
       padding-top: 0.6rem;
-      color: #9ca3af;
+      color: #e5e7eb;
     }
 
-    .fixture-tags {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-    }
-
+    .fixture-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
     .fixture-tags span {
       padding: 0.1rem 0.55rem;
       border-radius: 999px;
-      background: rgba(15, 23, 42, 0.7);
-      border: 1px solid rgba(148, 163, 184, 0.45);
+      background: rgba(15, 23, 42, 0.55);
+      border: 1px solid rgba(148, 163, 184, 0.38);
     }
 
     .hero-float {
@@ -454,78 +269,23 @@
       max-width: 210px;
       color: #111827;
     }
-
-    .hero-float strong {
-      font-size: 0.8rem;
-    }
-
-    .hero-float span {
-      color: var(--muted);
-    }
+    .hero-float strong { font-size: 0.8rem; }
+    .hero-float span { color: var(--muted); }
 
     /* SECTIONS */
+    section { padding: 2.5rem 0; }
+    section:nth-of-type(even) { background: #ffffff; }
 
-    section {
-      padding: 2.5rem 0;
-    }
-
-    section:nth-of-type(even) {
-      background: #ffffff;
-    }
-
-    .section-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-      color: #111827;
-    }
-
-    .section-header h2 {
-      font-size: 1.3rem;
-    }
-
-    .section-header p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      max-width: 26rem;
-    }
+    .section-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; margin-bottom: 1.5rem; color: #111827; }
+    .section-header h2 { font-size: 1.3rem; }
+    .section-header p { font-size: 0.9rem; color: var(--muted); max-width: 26rem; }
 
     /* ABOUT */
-
-    #about {
-      background:
-        radial-gradient(circle at top left, #e0f2fe 0, #f9fafb 45%, #ffffff 100%);
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-      gap: 2rem;
-    }
-
-    .about-text p {
-      font-size: 0.95rem;
-      color: #374151;
-      margin-bottom: 0.8rem;
-    }
-
-    .about-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.6rem;
-      margin-top: 0.5rem;
-    }
-
-    .about-badges span {
-      font-size: 0.75rem;
-      padding: 0.2rem 0.6rem;
-      border-radius: 999px;
-      border: 1px dashed rgba(148, 163, 184, 0.8);
-      color: #4b5563;
-      background: #f9fafb;
-    }
+    #about { background: radial-gradient(circle at top left, #e0f2fe 0, #f9fafb 45%, #ffffff 100%); }
+    .about-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2rem; }
+    .about-text p { font-size: 0.95rem; color: #374151; margin-bottom: 0.8rem; }
+    .about-badges { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.5rem; }
+    .about-badges span { font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px dashed rgba(148, 163, 184, 0.8); color: #4b5563; background: #f9fafb; }
 
     .stats-card {
       position: relative;
@@ -553,11 +313,7 @@
       pointer-events: none;
     }
 
-    .stat-box {
-      position: relative;
-      z-index: 1;
-    }
-
+    .stat-box { position: relative; z-index: 1; }
     .stat-box h3 {
       display: inline-flex;
       align-items: center;
@@ -581,24 +337,11 @@
       background-clip: text;
       color: transparent;
     }
-
-    .stat-box span {
-      font-size: 0.76rem;
-      color: #cbd5f5;
-    }
+    .stat-box span { font-size: 0.76rem; color: #cbd5f5; }
 
     /* FIXTURES */
-
-    #fixtures {
-      background:
-        radial-gradient(circle at top left, #e0f2fe 0, #f9fafb 40%, #eef2ff 100%);
-    }
-
-    .cards-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 1rem;
-    }
+    #fixtures { background: radial-gradient(circle at top left, #e0f2fe 0, #f9fafb 40%, #eef2ff 100%); }
+    .cards-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
 
     .card {
       background: #ffffff;
@@ -612,66 +355,11 @@
       overflow: hidden;
     }
 
-    .card h3 {
-      font-size: 0.95rem;
-      margin-bottom: 0.4rem;
-    }
-
-    .card small {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--muted);
-    }
-
-    .card p {
-      font-size: 0.86rem;
-      color: var(--muted);
-      margin-top: 0.4rem;
-    }
-
-    .card-list {
-      margin-top: 0.6rem;
-      list-style: none;
-    }
-
-    .card-list li {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.25rem 0;
-      font-size: 0.82rem;
-      border-bottom: 1px dashed rgba(148, 163, 184, 0.4);
-    }
-
-    .card-list li:last-child {
-      border-bottom: none;
-    }
-
-    .tag-pill {
-      padding: 0.1rem 0.5rem;
-      border-radius: 999px;
-      background: rgba(37, 99, 235, 0.07);
-      border: 1px solid rgba(37, 99, 235, 0.25);
-      font-size: 0.7rem;
-      color: #1d4ed8;
-    }
-
     #fixtures .fixture-card {
       border-radius: 22px;
       border: 1px solid rgba(148, 163, 184, 0.45);
       box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
-    }
-
-    #fixtures .fixture-card::before {
-      content: "";
-      position: absolute;
-      inset: -30%;
-      background:
-        radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), transparent 55%),
-        radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.18), transparent 55%);
-      pointer-events: none;
-      opacity: 0.9;
+      height: auto;
     }
 
     #fixtures .fixture-card::after {
@@ -684,330 +372,313 @@
       pointer-events: none;
     }
 
-    #fixtures .fixture-card > * {
-      position: relative;
-      z-index: 1;
-    }
+    .fixture-card--upcoming { --accent: #3b82f6; background: linear-gradient(135deg, #ffffff, #e5edff); }
+    .fixture-card--recent   { --accent: #22c55e; background: linear-gradient(135deg, #ffffff, #eafaf0); }
+    .fixture-card--stats    { --accent: #f97316; background: linear-gradient(135deg, #ffffff, #eef2ff); }
 
-    #fixtures .fixture-card h3 {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
+    /* Scoreboard */
+    .scoreboard-card { padding: 0.95rem 1rem 1rem; }
+    .scoreboard-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.75rem; }
+    .scoreboard-kicker { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: #4b5563; }
+    .scoreboard-title { font-size: 0.98rem; margin-top: 0.15rem; margin-bottom: 0; }
+    .scoreboard-dot { width: 9px; height: 9px; border-radius: 999px; background: var(--accent, #3b82f6); box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.12); margin-top: 0.25rem; }
 
-    #fixtures .fixture-card h3::after {
-      content: "";
-      width: 7px;
-      height: 7px;
-      border-radius: 999px;
-      background: var(--accent, #3b82f6);
-    }
-
-    /* Per-card accent backgrounds */
-
-    .fixture-card--upcoming {
-      --accent: #3b82f6;
-      background:
-        radial-gradient(circle at 0% 0%, rgba(59, 130, 246, 0.15), transparent 55%),
-        linear-gradient(135deg, #ffffff, #e5edff);
-    }
-
-    /* <- changed: no more mint-green wash, just very light neutral */
-    .fixture-card--recent {
-      --accent: #22c55e;
-      background:
-        radial-gradient(circle at 0% 0%, rgba(148, 163, 184, 0.14), transparent 55%),
-        linear-gradient(135deg, #ffffff, #f3f4f6);
-    }
-
-    .fixture-card--stats {
-      --accent: #f97316;
-      background:
-        radial-gradient(circle at 0% 0%, rgba(249, 115, 22, 0.16), transparent 55%),
-        radial-gradient(circle at 100% 100%, rgba(59, 130, 246, 0.18), transparent 55%),
-        linear-gradient(135deg, #ffffff, #eef2ff);
-    }
-
-    /* Results styling – colourful rows, but clean card background */
-
-    .results-list {
-      margin-top: 0.7rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .result-row {
-      padding: 0.6rem 0.8rem;
+    .scoreboard-match {
       border-radius: 16px;
-      border: 1px solid rgba(148, 163, 184, 0.25);
-      background: linear-gradient(135deg, #f9fafb, #eef2ff);
-      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      background: rgba(255, 255, 255, 0.78);
+      box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
+      padding: 0.7rem 0.75rem;
+      margin-bottom: 0.65rem;
+      backdrop-filter: blur(6px);
     }
 
-    .results-list .result-row:nth-child(1) {
-      border-color: rgba(239, 68, 68, 0.55);
-      background:
-        radial-gradient(circle at 0% 0%, rgba(248, 113, 113, 0.16), transparent 55%),
-        linear-gradient(135deg, #fef2f2, #fee2e2);
-    }
+    .scoreboard-top { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; margin-bottom: 0.55rem; }
+    .match-label { font-size: 0.74rem; color: #4b5563; font-weight: 600; letter-spacing: 0.02em; }
+    .match-badge { font-size: 0.7rem; padding: 0.12rem 0.55rem; border-radius: 999px; border: 1px solid rgba(148, 163, 184, 0.45); background: rgba(15, 23, 42, 0.04); color: #374151; font-weight: 700; white-space: nowrap; }
+    .badge-won { background: rgba(34, 197, 94, 0.12); border-color: rgba(34, 197, 94, 0.45); color: #166534; }
+    .badge-lost { background: rgba(239, 68, 68, 0.12); border-color: rgba(239, 68, 68, 0.45); color: #991b1b; }
 
-    .results-list .result-row:nth-child(2) {
-      border-color: rgba(34, 197, 94, 0.6);
-      background:
-        radial-gradient(circle at 0% 0%, rgba(34, 197, 94, 0.16), transparent 55%),
-        linear-gradient(135deg, #ecfdf5, #d1fae5);
-    }
+    .teams { display: grid; grid-template-columns: 1fr; gap: 0.4rem; }
+    .team { display: flex; align-items: center; gap: 0.55rem; padding: 0.15rem 0; }
 
-    .results-list .result-row:nth-child(3) {
-      border-color: rgba(248, 113, 113, 0.5);
-      background:
-        radial-gradient(circle at 0% 0%, rgba(248, 113, 113, 0.16), transparent 55%),
-        linear-gradient(135deg, #fef2f2, #fee2e2);
-    }
-
-    .result-main {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      align-items: baseline;
-      font-size: 0.82rem;
-    }
-
-    .result-date {
-      font-weight: 600;
-      color: #111827;
-    }
-
-    .result-vs {
-      font-weight: 700;
-      color: #111827;
-    }
-
-    .result-venue {
-      font-size: 0.76rem;
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      color: #6b7280;
-    }
-
-    .result-tag {
+    .flag {
+      width: 28px;
+      height: 20px;
+      border-radius: 6px;
       display: inline-flex;
       align-items: center;
-      padding: 0.12rem 0.8rem;
-      border-radius: 999px;
-      font-size: 0.72rem;
-      margin-top: 0.3rem;
-      font-weight: 600;
-    }
-
-    .result-tag--won {
-      background: rgba(22, 163, 74, 0.15);
-      border: 1px solid rgba(22, 163, 74, 0.6);
-      color: #166534;
-      box-shadow: 0 0 0 1px rgba(187, 247, 208, 0.9);
-    }
-
-    .result-tag--lost {
-      background: rgba(220, 38, 38, 0.12);
-      border: 1px solid rgba(220, 38, 38, 0.6);
-      color: #b91c1c;
-      box-shadow: 0 0 0 1px rgba(254, 226, 226, 0.9);
-    }
-
-    .result-score {
-      font-size: 0.78rem;
-      color: #4b5563;
-      margin-top: 0.25rem;
-    }
-
-    /* Top performers table styling (BBL-style) */
-
-    .performances-grid {
-      margin-top: 0.7rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 0.9rem;
-    }
-
-    .performance-column {
-      background: #f9fafb;
-      border-radius: 16px;
-      padding: 0.6rem 0.8rem 0.7rem;
-      border: 1px solid rgba(148, 163, 184, 0.4);
-      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
-    }
-
-    .perf-header-row {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid rgba(209, 213, 219, 0.9);
-      margin-bottom: 0.25rem;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #4b5563;
-    }
-
-    .perf-header-icon {
-      width: 18px;
-      height: 18px;
-      border-radius: 999px;
-      border: 1px solid rgba(107, 114, 128, 0.6);
-      display: flex;
-      align-items: center;
       justify-content: center;
-      font-size: 0.7rem;
+      font-size: 0.65rem;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      border: 1px solid rgba(148, 163, 184, 0.55);
+      background: #fff;
+      flex: 0 0 auto;
     }
 
-    .perf-row {
+    .flag.bm { background: linear-gradient(135deg, rgba(59,130,246,.18), rgba(244,180,0,.16)); color: #1f2937; }
+    .flag.opp { background: linear-gradient(135deg, rgba(2,6,23,.08), rgba(148,163,184,.18)); color: #111827; }
+
+    .team-meta { flex: 1; min-width: 0; }
+    .team-name { font-size: 0.86rem; font-weight: 700; color: #111827; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .team-score { font-size: 0.78rem; color: #4b5563; margin-top: 0.05rem; }
+    .team-score span { font-weight: 800; color: #111827; }
+
+    .scoreboard-foot {
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 0.65rem;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+      gap: 0.75rem;
+      margin-top: 0.55rem;
+      padding-top: 0.55rem;
+      border-top: 1px dashed rgba(148, 163, 184, 0.5);
+      color: #4b5563;
+      font-size: 0.74rem;
     }
 
-    .perf-row:last-of-type {
-      border-bottom: none;
-    }
+    .match-note { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 60%; text-align: right; }
 
-    .perf-player-avatar {
-      width: 42px;
-      height: 42px;
-      border-radius: 999px;
+    .scoreboard-link { display: block; margin-top: 0.35rem; font-size: 0.82rem; color: #2563eb; font-weight: 700; }
+
+    /* Top performers */
+    .performances-grid { margin-top: 0.7rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.9rem; }
+    .performance-column { background: #f9fafb; border-radius: 16px; padding: 0.6rem 0.8rem 0.7rem; border: 1px solid rgba(148, 163, 184, 0.4); box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05); }
+    .perf-header-row { display: flex; align-items: center; gap: 0.4rem; padding-bottom: 0.3rem; border-bottom: 1px solid rgba(209, 213, 219, 0.9); margin-bottom: 0.25rem; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: #4b5563; }
+    .perf-header-icon { width: 18px; height: 18px; border-radius: 999px; border: 1px solid rgba(107, 114, 128, 0.6); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; }
+    .perf-row { display: flex; align-items: center; gap: 0.65rem; padding: 0.45rem 0; border-bottom: 1px solid rgba(229, 231, 235, 0.9); }
+    .perf-row:last-of-type { border-bottom: none; }
+    .perf-player-avatar { width: 42px; height: 42px; border-radius: 999px; overflow: hidden; background: #e5e7eb; flex-shrink: 0; border: 1px solid rgba(148, 163, 184, 0.7); }
+    .perf-player-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .perf-player-meta { flex: 1; min-width: 0; }
+    .perf-player-name { font-size: 0.86rem; font-weight: 600; color: #111827; }
+    .perf-player-name span { font-size: 0.72rem; font-weight: 500; color: #6b7280; margin-left: 0.25rem; }
+    .perf-player-detail { font-size: 0.78rem; color: #4b5563; margin-top: 0.05rem; }
+    .perf-player-detail strong { font-weight: 700; }
+    .perf-view-link { display: inline-block; margin-top: 0.35rem; font-size: 0.78rem; color: #2563eb; }
+
+    /* ✅ SQUAD (more colour) */
+    #squads { background: linear-gradient(135deg, #eef2ff, #e0f2fe); }
+
+    .squad-shell{
+      background:
+        radial-gradient(circle at 10% 0%, rgba(59,130,246,.12), transparent 45%),
+        radial-gradient(circle at 95% 10%, rgba(244,180,0,.10), transparent 40%),
+        rgba(255,255,255,.86);
+      border: 1px solid rgba(129,140,248,.40);
+      border-radius: 22px;
+      box-shadow: 0 18px 40px rgba(30, 64, 175, 0.16);
       overflow: hidden;
-      background: #e5e7eb;
-      flex-shrink: 0;
-      border: 1px solid rgba(148, 163, 184, 0.7);
     }
 
-    .perf-player-avatar img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
+    .squad-tabs{
+      display:flex;
+      gap:.55rem;
+      padding: .8rem;
+      background:
+        linear-gradient(90deg, rgba(37,99,235,.12), rgba(56,189,248,.08));
+      border-bottom: 1px solid rgba(148,163,184,.35);
     }
 
-    .perf-player-meta {
+    .squad-tab{
       flex: 1;
-      min-width: 0;
-    }
-
-    .perf-player-name {
-      font-size: 0.86rem;
-      font-weight: 600;
-      color: #111827;
-    }
-
-    .perf-player-name span {
-      font-size: 0.72rem;
-      font-weight: 500;
-      color: #6b7280;
-      margin-left: 0.25rem;
-    }
-
-    .perf-player-detail {
-      font-size: 0.78rem;
-      color: #4b5563;
-      margin-top: 0.05rem;
-    }
-
-    .perf-player-detail strong {
-      font-weight: 700;
-    }
-
-    .perf-view-link {
-      display: inline-block;
-      margin-top: 0.35rem;
-      font-size: 0.78rem;
-      color: #2563eb;
-    }
-
-    /* SQUAD & STRUCTURE */
-
-    #squads {
-      background: linear-gradient(135deg, #eef2ff, #e0f2fe);
-    }
-
-    .squad-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.1rem;
-    }
-
-    .squad-card {
+      border: 1px solid rgba(129,140,248,.35);
+      background: rgba(255,255,255,.78);
+      border-radius: 999px;
+      padding: .6rem .9rem;
+      font-weight: 900;
+      font-size: .88rem;
+      color: #0f172a;
+      cursor: pointer;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease, border-color .15s ease;
       position: relative;
-      background: rgba(255, 255, 255, 0.97);
-      border-radius: var(--radius-lg);
-      padding: 1rem 1.1rem 1.1rem;
-      border: 1px solid rgba(129, 140, 248, 0.35);
-      box-shadow: 0 18px 40px rgba(30, 64, 175, 0.15);
       overflow: hidden;
     }
 
-    .squad-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
+    .squad-tab::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background: radial-gradient(circle at 25% 20%, rgba(59,130,246,.22), transparent 55%);
+      opacity:.35;
+      pointer-events:none;
+    }
+
+    .squad-tab:hover{ transform: translateY(-1px); box-shadow: 0 12px 24px rgba(15,23,42,.10); border-color: rgba(37,99,235,.45); }
+    .squad-tab.is-active{
+      background:
+        linear-gradient(135deg, rgba(59,130,246,.22), rgba(244,180,0,.14));
+      border-color: rgba(37,99,235,.60);
+      box-shadow: 0 16px 30px rgba(15,23,42,.12);
+    }
+
+    .squad-panel{ display:none; padding: 1.05rem; }
+    .squad-panel.is-active{ display:block; }
+
+    .panel-grid{
+      display:grid;
+      grid-template-columns: 1.65fr .9fr;
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .panel-card{
+      background:
+        radial-gradient(circle at 0% 0%, rgba(59,130,246,.08), transparent 52%),
+        rgba(255,255,255,.96);
+      border: 1px solid rgba(148,163,184,.35);
+      border-radius: 18px;
+      padding: 1rem 1rem 1.05rem;
+      box-shadow: 0 14px 35px rgba(15,23,42,.07);
+      position: relative;
+    }
+
+    .panel-card::after{
+      content:"";
+      position:absolute;
+      inset:0;
       border-radius: inherit;
-      border-top: 4px solid rgba(37, 99, 235, 0.85);
-      pointer-events: none;
+      border-top: 4px solid rgba(59,130,246,.75);
+      pointer-events:none;
+      opacity:.9;
     }
 
-    .squad-card h3 {
-      margin-bottom: 0.6rem;
+    .panel-card--note{
+      background:
+        radial-gradient(circle at 20% 0%, rgba(244,180,0,.18), transparent 55%),
+        radial-gradient(circle at 100% 80%, rgba(59,130,246,.12), transparent 55%),
+        rgba(255,255,255,.96);
     }
 
-    .squad-card small {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--muted);
-    }
-
-    .squad-list {
-      list-style: none;
-      font-size: 0.85rem;
-      color: #374151;
-      margin-top: 0.4rem;
-    }
-
-    .squad-list li {
-      display: flex;
-      flex-direction: column;
+    .panel-head{
+      display:flex;
+      justify-content: space-between;
+      gap: .8rem;
       align-items: flex-start;
-      gap: 0.12rem;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+      margin-bottom: .8rem;
     }
 
-    .squad-list li:last-child {
-      border-bottom: none;
+    .panel-head h3{ margin: 0; font-size: 1.05rem; }
+    .panel-head p{ margin-top: .25rem; color: #6b7280; font-size: .86rem; }
+
+    .panel-pill{
+      font-size: .72rem;
+      font-weight: 1000;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      padding: .26rem .62rem;
+      border-radius: 999px;
+      border: 1px solid rgba(59,130,246,.40);
+      background: linear-gradient(135deg, rgba(37,99,235,.12), rgba(56,189,248,.10));
+      color: #1d4ed8;
+      white-space: nowrap;
     }
 
-    .squad-role {
-      font-weight: 600;
-      font-size: 0.82rem;
-      color: #111827;
+    .role-list{ display:grid; gap: .6rem; }
+
+    .role-item{
+      padding: .72rem .78rem;
+      border-radius: 14px;
+      border: 1px solid rgba(229,231,235,.9);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.92), rgba(249,250,251,.92));
+      transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
     }
 
-    .squad-names {
-      font-size: 0.8rem;
-      color: #4b5563;
+    .role-item:hover{
+      transform: translateY(-1px);
+      box-shadow: 0 14px 26px rgba(15,23,42,.08);
+      border-color: rgba(59,130,246,.28);
     }
+
+    .role-title{
+      font-size: .74rem;
+      font-weight: 1000;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+
+    .role-name{
+      font-size: .94rem;
+      font-weight: 900;
+      color: #0f172a;
+      margin-top: .15rem;
+    }
+
+    .role-mini{
+      font-size: .82rem;
+      color: #64748b;
+      margin-top: .12rem;
+    }
+
+    .note-points{ display:grid; gap: .45rem; margin-top: .7rem; }
+    .note-point{ display:flex; gap:.45rem; align-items:flex-start; color:#334155; font-size:.86rem; }
+    .note-point .dot{ width:7px; height:7px; border-radius:999px; background: var(--secondary); margin-top:.45rem; flex:0 0 auto; }
+
+    .btn-mini{
+      border-radius: 999px;
+      padding: .52rem .95rem;
+      font-size: .84rem;
+      font-weight: 900;
+      border: 1px solid rgba(37,99,235,.30);
+      background: linear-gradient(135deg, rgba(37,99,235,.12), rgba(244,180,0,.10));
+      color: #1d4ed8;
+      cursor: pointer;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      white-space:nowrap;
+      transition: transform .15s ease, box-shadow .15s ease;
+      margin-top: .55rem;
+    }
+    .btn-mini:hover{ transform: translateY(-1px); box-shadow: 0 12px 24px rgba(15,23,42,.10); }
+
+    .sponsor-logos{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: .6rem;
+      margin-bottom: .8rem;
+    }
+
+    .sponsor-logo{
+      background:
+        radial-gradient(circle at 20% 0%, rgba(59,130,246,.10), transparent 60%),
+        rgba(255,255,255,.96);
+      border: 1px solid rgba(148,163,184,.35);
+      border-radius: 14px;
+      padding: .6rem .65rem;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height: 66px;
+      overflow:hidden;
+      box-shadow: 0 10px 24px rgba(15,23,42,.07);
+      transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+      color: #374151;
+      font-weight: 800;
+      font-size: .85rem;
+    }
+    .sponsor-logo:hover{ transform: translateY(-2px); box-shadow: 0 16px 34px rgba(15,23,42,.12); border-color: rgba(59,130,246,.30); }
+    .sponsor-logo img{ max-height: 46px; max-width: 100%; object-fit: contain; }
+
+    .sponsor-tiers{ display:grid; gap:.55rem; margin-top:.25rem; }
+    .tier{
+      display:flex;
+      justify-content: space-between;
+      gap: .8rem;
+      align-items:center;
+      padding: .65rem .75rem;
+      border-radius: 14px;
+      border: 1px dashed rgba(129,140,248,.72);
+      background:
+        linear-gradient(135deg, rgba(239,246,255,.85), rgba(224,242,254,.65));
+    }
+    .tier-title{ font-weight: 900; font-size: .9rem; color:#0f172a; }
+    .tier-meta{ font-size: .78rem; color:#64748b; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; }
 
     /* GALLERY */
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 0.9rem;
-    }
-
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.9rem; }
     .gallery-item {
       position: relative;
       border-radius: 16px;
@@ -1022,12 +693,7 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-
-    .gallery-item span {
-      position: relative;
-      z-index: 1;
-    }
-
+    .gallery-item span { position: relative; z-index: 1; }
     .gallery-item::before {
       content: "";
       position: absolute;
@@ -1037,50 +703,15 @@
     }
 
     /* JOIN & CONTACT */
+    .two-col { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr); gap: 1.5rem; align-items: flex-start; }
+    .list { list-style: none; font-size: 0.9rem; color: #374151; }
+    .list li { display: flex; gap: 0.5rem; margin-bottom: 0.45rem; }
+    .bullet { width: 6px; height: 6px; border-radius: 999px; background: var(--secondary); margin-top: 0.45rem; flex-shrink: 0; }
 
-    .two-col {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
-      gap: 1.5rem;
-      align-items: flex-start;
-    }
+    form { display: grid; grid-template-columns: 1fr; gap: 0.65rem; font-size: 0.85rem; }
+    label { font-size: 0.8rem; font-weight: 500; color: #111827; }
 
-    .list {
-      list-style: none;
-      font-size: 0.9rem;
-      color: #374151;
-    }
-
-    .list li {
-      display: flex;
-      gap: 0.5rem;
-      margin-bottom: 0.45rem;
-    }
-
-    .bullet {
-      width: 6px;
-      height: 6px;
-      border-radius: 999px;
-      background: var(--secondary);
-      margin-top: 0.45rem;
-      flex-shrink: 0;
-    }
-
-    form {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0.65rem;
-      font-size: 0.85rem;
-    }
-
-    label {
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: #111827;
-    }
-
-    input,
-    textarea {
+    input, textarea {
       width: 100%;
       padding: 0.45rem 0.6rem;
       border-radius: 10px;
@@ -1091,20 +722,9 @@
       color: #111827;
     }
 
-    input::placeholder,
-    textarea::placeholder {
-      color: #6b7280;
-    }
-
-    textarea {
-      min-height: 90px;
-      resize: vertical;
-    }
-
-    small.form-hint {
-      font-size: 0.7rem;
-      color: var(--muted);
-    }
+    input::placeholder, textarea::placeholder { color: #6b7280; }
+    textarea { min-height: 90px; resize: vertical; }
+    small.form-hint { font-size: 0.7rem; color: var(--muted); }
 
     .map-card {
       background: radial-gradient(circle at top left, #1d4ed8, #020617 55%);
@@ -1115,34 +735,12 @@
       border: 1px solid rgba(129, 140, 248, 0.5);
       font-size: 0.9rem;
     }
-
-    .map-card h3 {
-      font-size: 1rem;
-      margin-bottom: 0.4rem;
-    }
-
-    .map-card p {
-      font-size: 0.85rem;
-      color: #cbd5f5;
-      margin-bottom: 0.6rem;
-    }
-
-    .map-embed {
-      background: #020617;
-      border-radius: 16px;
-      overflow: hidden;
-      border: 1px solid rgba(148, 163, 184, 0.6);
-    }
-
-    .map-embed iframe {
-      display: block;
-      width: 100%;
-      height: 260px;
-      border: 0;
-    }
+    .map-card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .map-card p { font-size: 0.85rem; color: #cbd5f5; margin-bottom: 0.6rem; }
+    .map-embed { background: #020617; border-radius: 16px; overflow: hidden; border: 1px solid rgba(148, 163, 184, 0.6); }
+    .map-embed iframe { display: block; width: 100%; height: 260px; border: 0; }
 
     /* FOOTER */
-
     footer {
       padding: 1.5rem 0 1.7rem;
       font-size: 0.8rem;
@@ -1150,72 +748,33 @@
       background: #e5e7eb;
       border-top: 1px solid rgba(148, 163, 184, 0.4);
     }
-
-    .footer-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .footer-row a {
-      font-size: 0.8rem;
-    }
+    .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
 
     /* RESPONSIVE */
-
     @media (max-width: 880px) {
-      .hero-grid,
-      .about-grid,
-      .two-col {
-        grid-template-columns: minmax(0, 1fr);
-      }
+      .hero-grid, .about-grid, .two-col { grid-template-columns: minmax(0, 1fr); }
+      .hero-right { order: -1; }
+      .nav-links { display: none; }
+      .nav-cta small { display: inline-block; }
+      .hero { padding-top: 2.6rem; }
+      .stats-card { grid-template-columns: minmax(0, 1fr); }
+      .map-embed iframe { height: 220px; }
+      .match-note { max-width: 55%; }
 
-      .hero-right {
-        order: -1;
-      }
-
-      .nav-links {
-        display: none;
-      }
-
-      .nav-cta small {
-        display: inline-block;
-      }
-
-      .hero {
-        padding-top: 2.6rem;
-      }
-
-      .stats-card {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .squad-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-
-      .map-embed iframe {
-        height: 220px;
-      }
+      .panel-grid{ grid-template-columns: 1fr; }
+      .sponsor-logos{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
 
     @media (max-width: 520px) {
-      .hero-card {
-        padding: 1.1rem 1.1rem;
-      }
-
-      .hero-meta {
-        gap: 0.9rem;
-      }
-
-      .hero-float {
-        display: none;
-      }
+      .hero-card { padding: 1.1rem 1.1rem; }
+      .hero-meta { gap: 0.9rem; }
+      .hero-float { display: none; }
+      .match-note { display: none; }
+      .team-name { font-size: 0.83rem; }
     }
   </style>
 </head>
+
 <body>
   <div class="page">
     <!-- NAVBAR -->
@@ -1230,6 +789,7 @@
             <span class="brand-sub">Cricket Club · BMCC</span>
           </div>
         </div>
+
         <nav class="nav-links">
           <a href="#about">About</a>
           <a href="#fixtures">Fixtures</a>
@@ -1239,6 +799,7 @@
           <a href="#join">Join Us</a>
           <a href="#contact">Contact</a>
         </nav>
+
         <div class="nav-cta">
           <small>West Midlands</small>
           <a href="#join" class="btn-primary">Join the Mavericks</a>
@@ -1250,14 +811,7 @@
       <!-- HERO -->
       <section class="hero" id="home">
         <div class="hero-media">
-          <video
-            autoplay
-            muted
-            loop
-            playsinline
-            preload="auto"
-            poster="gallery-3.jpg"
-          >
+          <video autoplay muted loop playsinline preload="auto" poster="gallery-3.jpg">
             <source src="bmcc-hero-web.mp4" type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
@@ -1267,9 +821,7 @@
         <div class="container hero-grid">
           <div>
             <div class="eyebrow">West Midlands Sunday Border League</div>
-            <h1>
-              Birmingham <span>Mavericks</span> Cricket Club
-            </h1>
+            <h1>Birmingham <span>Mavericks</span> Cricket Club</h1>
             <p class="hero-sub">
               Independent Sunday league side based at Old Halesonians Cricket Club, competing in the West Midlands
               Sunday Border League and local friendlies.
@@ -1284,12 +836,7 @@
             <div class="hero-actions">
               <a href="#join" class="btn-primary">Register your interest</a>
               <a href="#fixtures" class="btn-outline">View upcoming fixtures</a>
-              <a
-                class="btn-outline"
-                href="https://birminghammavericks.play-cricket.com/home"
-                target="_blank"
-                rel="noopener"
-              >
+              <a class="btn-outline" href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">
                 View stats on Play-Cricket
               </a>
             </div>
@@ -1356,9 +903,7 @@
 
             <div class="hero-float">
               <strong>Recruiting for new season</strong>
-              <span>
-                Open to batters, bowlers, all-rounders &amp; wicketkeepers. Use the form below to join the Mavericks.
-              </span>
+              <span>Open to batters, bowlers, all-rounders &amp; wicketkeepers. Use the form below to join the Mavericks.</span>
             </div>
           </div>
         </div>
@@ -1374,6 +919,7 @@
               for players and families across the West Midlands.
             </p>
           </div>
+
           <div class="about-grid">
             <div class="about-text">
               <p>
@@ -1432,91 +978,222 @@
           </div>
 
           <div class="cards-row">
-            <!-- Upcoming fixtures -->
-            <article class="card fixture-card fixture-card--upcoming">
-              <small>Upcoming</small>
-              <h3>Next 3 Fixtures</h3>
-              <ul class="card-list">
-                <li>
-                  <span>Sun – League fixture (H)</span>
-                  <span class="tag-pill">WMSBL</span>
-                </li>
-                <li>
-                  <span>Sun – League fixture (A)</span>
-                  <span class="tag-pill">WMSBL</span>
-                </li>
-                <li>
-                  <span>Midweek – T20 friendly</span>
-                  <span class="tag-pill">T20</span>
-                </li>
-              </ul>
-              <p>Update this section weekly with your latest league and friendly fixtures.</p>
-            </article>
+            <!-- UPCOMING -->
+            <article class="card fixture-card fixture-card--upcoming scoreboard-card">
+              <div class="scoreboard-head">
+                <div>
+                  <div class="scoreboard-kicker">UPCOMING</div>
+                  <h3 class="scoreboard-title">Next 3 Fixtures</h3>
+                </div>
+                <span class="scoreboard-dot" title="Scheduled"></span>
+              </div>
 
-            <!-- Last 3 real results -->
-            <article class="card fixture-card fixture-card--recent">
-              <small>Recent</small>
-              <h3>Last 3 Results</h3>
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">WMSBL · League</span>
+                  <span class="match-badge" style="background:rgba(59,130,246,.12);border-color:rgba(59,130,246,.45);color:#1d4ed8;">WMSBL</span>
+                </div>
 
-              <div class="results-list">
-                <!-- Bharat Parivar CC -->
-                <div class="result-row">
-                  <div class="result-main">
-                    <span class="result-date">21 Sep 2025</span>
-                    <span>·</span>
-                    <span class="result-vs">vs Bharat Parivar CC</span>
-                    <span class="result-venue">Sunday 1st XI</span>
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score"><span>Home</span> · Sun 2:00 PM</div>
+                    </div>
                   </div>
-                  <div class="result-tag result-tag--lost">Lost by 7 wickets</div>
-                  <div class="result-score">
-                    Birmingham Mavericks CC 145 all out (37.4)<br />
-                    Bharat Parivar CC 146/3 (31.1)
+
+                  <div class="team">
+                    <span class="flag opp">OPP</span>
+                    <div class="team-meta">
+                      <div class="team-name">TBC Opposition</div>
+                      <div class="team-score">40 overs · Old Halesonians CC</div>
+                    </div>
                   </div>
                 </div>
 
-                <!-- Wightwick & Finchfield CC -->
-                <div class="result-row">
-                  <div class="result-main">
-                    <span class="result-date">07 Sep 2025</span>
-                    <span>·</span>
-                    <span class="result-vs">vs Wightwick &amp; Finchfield CC</span>
-                    <span class="result-venue">Sunday 1st XI</span>
-                  </div>
-                  <div class="result-tag result-tag--won">Won by 38 runs</div>
-                  <div class="result-score">
-                    Birmingham Mavericks CC 162/9 (28.0)<br />
-                    Wightwick &amp; Finchfield CC 124 all out (23.5)
-                  </div>
-                </div>
-
-                <!-- Sportsman CC -->
-                <div class="result-row">
-                  <div class="result-main">
-                    <span class="result-date">31 Aug 2025</span>
-                    <span>·</span>
-                    <span class="result-vs">vs Sportsman CC</span>
-                    <span class="result-venue">Friendly XI</span>
-                  </div>
-                  <div class="result-tag result-tag--lost">Lost by 95 runs</div>
-                  <div class="result-score">
-                    Sportsman CC 401/5 (40.0)<br />
-                    Birmingham Mavericks CC 306 all out (40.0)
-                  </div>
+                <div class="scoreboard-foot">
+                  <span class="match-date">Next Sunday</span>
+                  <span class="match-note">Confirm availability in squad group</span>
                 </div>
               </div>
 
-              <p style="margin-top:0.7rem; font-size:0.78rem; color:var(--muted);">
-                Tap through to Play-Cricket for full scorecards, partnerships and bowling figures.
-              </p>
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">WMSBL · League</span>
+                  <span class="match-badge" style="background:rgba(59,130,246,.12);border-color:rgba(59,130,246,.45);color:#1d4ed8;">WMSBL</span>
+                </div>
+
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag opp">OPP</span>
+                    <div class="team-meta">
+                      <div class="team-name">TBC Opposition</div>
+                      <div class="team-score"><span>Away</span> · Sun 2:00 PM</div>
+                    </div>
+                  </div>
+
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score">40 overs · TBC Ground</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="scoreboard-foot">
+                  <span class="match-date">Following Sunday</span>
+                  <span class="match-note">Details to be updated</span>
+                </div>
+              </div>
+
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">Midweek</span>
+                  <span class="match-badge" style="background:rgba(249,115,22,.12);border-color:rgba(249,115,22,.45);color:#c2410c;">T20</span>
+                </div>
+
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score"><span>Friendly</span> · Evening</div>
+                    </div>
+                  </div>
+
+                  <div class="team">
+                    <span class="flag opp">OPP</span>
+                    <div class="team-meta">
+                      <div class="team-name">TBC Opposition</div>
+                      <div class="team-score">T20 · TBC Ground</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="scoreboard-foot">
+                  <span class="match-date">Midweek</span>
+                  <span class="match-note">Ideal for players who can’t do Sundays</span>
+                </div>
+              </div>
+
+              <a class="scoreboard-link" href="https://birminghammavericks.play-cricket.com/Matches" target="_blank" rel="noopener">
+                View fixtures on Play-Cricket ↗
+              </a>
             </article>
 
-            <!-- Top performers (BBL-style table) -->
+            <!-- RECENT -->
+            <article class="card fixture-card fixture-card--recent scoreboard-card">
+              <div class="scoreboard-head">
+                <div>
+                  <div class="scoreboard-kicker">RECENT</div>
+                  <h3 class="scoreboard-title">Last 3 Results</h3>
+                </div>
+                <span class="scoreboard-dot" title="Results" style="background:#22c55e; box-shadow:0 0 0 5px rgba(34,197,94,.12);"></span>
+              </div>
+
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">21 Sep 2025 · Sunday 1st XI</span>
+                  <span class="match-badge badge-lost">Lost by 7 wkts</span>
+                </div>
+
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score"><span>145</span> all out (37.4)</div>
+                    </div>
+                  </div>
+
+                  <div class="team">
+                    <span class="flag opp">BPC</span>
+                    <div class="team-meta">
+                      <div class="team-name">Bharat Parivar CC</div>
+                      <div class="team-score"><span>146/3</span> (31.1)</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="scoreboard-foot">
+                  <span class="match-date">League match</span>
+                  <span class="match-note">Full scorecard on Play-Cricket</span>
+                </div>
+              </div>
+
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">07 Sep 2025 · Sunday 1st XI</span>
+                  <span class="match-badge badge-won">Won by 38 runs</span>
+                </div>
+
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score"><span>162/9</span> (28.0)</div>
+                    </div>
+                  </div>
+
+                  <div class="team">
+                    <span class="flag opp">WFC</span>
+                    <div class="team-meta">
+                      <div class="team-name">Wightwick &amp; Finchfield CC</div>
+                      <div class="team-score"><span>124</span> all out (23.5)</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="scoreboard-foot">
+                  <span class="match-date">League match</span>
+                  <span class="match-note">Big win — keep momentum</span>
+                </div>
+              </div>
+
+              <div class="scoreboard-match">
+                <div class="scoreboard-top">
+                  <span class="match-label">31 Aug 2025 · Friendly XI</span>
+                  <span class="match-badge badge-lost">Lost by 95 runs</span>
+                </div>
+
+                <div class="teams">
+                  <div class="team">
+                    <span class="flag opp">SPC</span>
+                    <div class="team-meta">
+                      <div class="team-name">Sportsman CC</div>
+                      <div class="team-score"><span>401/5</span> (40.0)</div>
+                    </div>
+                  </div>
+
+                  <div class="team">
+                    <span class="flag bm">BM</span>
+                    <div class="team-meta">
+                      <div class="team-name">Birmingham Mavericks CC</div>
+                      <div class="team-score"><span>306</span> all out (40.0)</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="scoreboard-foot">
+                  <span class="match-date">Friendly</span>
+                  <span class="match-note">Update bowling plans</span>
+                </div>
+              </div>
+
+              <a class="scoreboard-link" href="https://birminghammavericks.play-cricket.com/Matches" target="_blank" rel="noopener">
+                View full scorecards ↗
+              </a>
+            </article>
+
+            <!-- Top performers -->
             <article class="card fixture-card fixture-card--stats">
               <small>Stats</small>
               <h3>Top Performers</h3>
 
               <div class="performances-grid">
-                <!-- Batting column -->
                 <div class="performance-column">
                   <div class="perf-header-row">
                     <span class="perf-header-icon">🏏</span>
@@ -1524,62 +1201,34 @@
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <!-- replace with real image file -->
-                      <img src="ashif-ashraf.jpg" alt="Ashif Ashraf" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="ashif-ashraf.jpg" alt="Ashif Ashraf" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Ashif Ashraf
-                        <span>RHB</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Runs: <strong>890</strong> · Innings: 24 · Avg: 38.70 · HS 132
-                      </div>
+                      <div class="perf-player-name">Ashif Ashraf <span>RHB</span></div>
+                      <div class="perf-player-detail">Runs: <strong>890</strong> · Innings: 24 · Avg: 38.70 · HS 132</div>
                     </div>
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <img src="majid-mohammed.jpg" alt="Majid Mohammed" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="majid-mohammed.jpg" alt="Majid Mohammed" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Majid Mohammed
-                        <span>Top-order</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Runs: <strong>733</strong> · Innings: 24 · Avg: 34.90 · HS 100
-                      </div>
+                      <div class="perf-player-name">Majid Mohammed <span>Top-order</span></div>
+                      <div class="perf-player-detail">Runs: <strong>733</strong> · Innings: 24 · Avg: 34.90 · HS 100</div>
                     </div>
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <img src="kamal-pankajakshan.jpg" alt="Kamal Pankajakshan" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="kamal-pankajakshan.jpg" alt="Kamal Pankajakshan" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Kamal Pankajakshan
-                        <span>Middle-order</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Runs: <strong>495</strong> · Innings: 23 · Avg: 26.05 · HS 51*
-                      </div>
+                      <div class="perf-player-name">Kamal Pankajakshan <span>Middle-order</span></div>
+                      <div class="perf-player-detail">Runs: <strong>495</strong> · Innings: 23 · Avg: 26.05 · HS 51*</div>
                     </div>
                   </div>
 
-                  <a
-                    class="perf-view-link"
-                    href="https://birminghammavericks.play-cricket.com/Statistics"
-                    target="_blank"
-                    rel="noopener"
-                  >
+                  <a class="perf-view-link" href="https://birminghammavericks.play-cricket.com/Statistics" target="_blank" rel="noopener">
                     View full batting list ↗
                   </a>
                 </div>
 
-                <!-- Bowling column -->
                 <div class="performance-column">
                   <div class="perf-header-row">
                     <span class="perf-header-icon">🎯</span>
@@ -1587,56 +1236,30 @@
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <img src="ashif-ashraf-bowling.jpg" alt="Ashif Ashraf bowling" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="ashif-ashraf-bowling.jpg" alt="Ashif Ashraf bowling" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Ashif Ashraf
-                        <span>Seam</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Wkts: <strong>36</strong> · 136.4 ovs · 10 mdns · 689 runs · Best 4/15 · Econ 5.04 · Avg 19.14
-                      </div>
+                      <div class="perf-player-name">Ashif Ashraf <span>Seam</span></div>
+                      <div class="perf-player-detail">Wkts: <strong>36</strong> · 136.4 ovs · 10 mdns · 689 runs · Best 4/15 · Econ 5.04 · Avg 19.14</div>
                     </div>
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <img src="muhammed-siyad-kalidh.jpg" alt="Muhammed Siyad Kalidh" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="muhammed-siyad-kalidh.jpg" alt="Muhammed Siyad Kalidh" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Muhammed Siyad Kalidh
-                        <span>Seam</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Wkts: <strong>36</strong> · 167.4 ovs · 16 mdns · 774 runs · Best 4/12 · Econ 4.62 · Avg 21.50
-                      </div>
+                      <div class="perf-player-name">Muhammed Siyad Kalidh <span>Seam</span></div>
+                      <div class="perf-player-detail">Wkts: <strong>36</strong> · 167.4 ovs · 16 mdns · 774 runs · Best 4/12 · Econ 4.62 · Avg 21.50</div>
                     </div>
                   </div>
 
                   <div class="perf-row">
-                    <div class="perf-player-avatar">
-                      <img src="mohammed-riyaz.jpg" alt="Mohammed Riyaz" />
-                    </div>
+                    <div class="perf-player-avatar"><img src="mohammed-riyaz.jpg" alt="Mohammed Riyaz" /></div>
                     <div class="perf-player-meta">
-                      <div class="perf-player-name">
-                        Mohammed Riyaz
-                        <span>Seam</span>
-                      </div>
-                      <div class="perf-player-detail">
-                        Wkts: <strong>29</strong> · 138 ovs · 11 mdns · 770 runs · Best 4/32 · Econ 5.58 · Avg 26.55
-                      </div>
+                      <div class="perf-player-name">Mohammed Riyaz <span>Seam</span></div>
+                      <div class="perf-player-detail">Wkts: <strong>29</strong> · 138 ovs · 11 mdns · 770 runs · Best 4/32 · Econ 5.58 · Avg 26.55</div>
                     </div>
                   </div>
 
-                  <a
-                    class="perf-view-link"
-                    href="https://birminghammavericks.play-cricket.com/Statistics"
-                    target="_blank"
-                    rel="noopener"
-                  >
+                  <a class="perf-view-link" href="https://birminghammavericks.play-cricket.com/Statistics" target="_blank" rel="noopener">
                     View full bowling list ↗
                   </a>
                 </div>
@@ -1651,72 +1274,182 @@
         <div class="container">
           <div class="section-header">
             <h2>Squad &amp; Structure</h2>
-            <p>
-              Quick overview of leadership, playing roles and club partners for the current Birmingham Mavericks squad.
-            </p>
+            <p>Leadership, roles, and club partners — in one clean view.</p>
           </div>
 
-          <div class="squad-grid">
-            <article class="card squad-card">
-              <small>Leadership</small>
-              <h3>Club Management</h3>
-              <ul class="squad-list">
-                <li>
-                  <span class="squad-role">Club Captain</span>
-                  <span class="squad-names">Javad Ismail</span>
-                </li>
-                <li>
-                  <span class="squad-role">Vice-Captain</span>
-                  <span class="squad-names">Majid Mohamed</span>
-                </li>
-                <li>
-                  <span class="squad-role">Team Manager</span>
-                  <span class="squad-names">Mohamed Riyaz</span>
-                </li>
-                <li>
-                  <span class="squad-role">Safeguarding Officer</span>
-                  <span class="squad-names">Mohammed Kattakath</span>
-                </li>
-              </ul>
-            </article>
+          <div class="squad-shell">
+            <div class="squad-tabs" role="tablist" aria-label="Squad & Structure tabs">
+              <button class="squad-tab is-active" type="button" role="tab" aria-selected="true" data-tab="leadership">Leadership</button>
+              <button class="squad-tab" type="button" role="tab" aria-selected="false" data-tab="players">Players</button>
+              <button class="squad-tab" type="button" role="tab" aria-selected="false" data-tab="sponsors">Sponsors</button>
+            </div>
 
-            <article class="card squad-card">
-              <small>Players</small>
-              <h3>Squad Roles</h3>
-              <ul class="squad-list">
-                <li>
-                  <span class="squad-role">Top-order batters</span>
-                  <span class="squad-names">Ashif Ashraf, Majid Mohamed, Javad Ismail</span>
-                </li>
-                <li>
-                  <span class="squad-role">Middle-order / finishers</span>
-                  <span class="squad-names">Mohammed Kattakath, Kamal K Pankaj</span>
-                </li>
-                <li>
-                  <span class="squad-role">All-rounders</span>
-                  <span class="squad-names">Mohamed Riyaz, Shibin Iqbal</span>
-                </li>
-                <li>
-                  <span class="squad-role">Seam &amp; spin attack</span>
-                  <span class="squad-names">
-                    Ashif Ashraf, Jawid TK, Mohamed Riaz, Mohamed Siyad, Yoosu Ibrahim
-                  </span>
-                </li>
-                <li>
-                  <span class="squad-role">Wicketkeepers</span>
-                  <span class="squad-names">Javad Ismail, Arun VK</span>
-                </li>
-              </ul>
-            </article>
+            <!-- LEADERSHIP -->
+            <div class="squad-panel is-active" role="tabpanel" data-panel="leadership">
+              <div class="panel-grid">
+                <div class="panel-card">
+                  <div class="panel-head">
+                    <div>
+                      <h3>Club Management</h3>
+                      <p>On-field leadership, selection and safeguarding.</p>
+                    </div>
+                    <span class="panel-pill">BMCC</span>
+                  </div>
 
-            <article class="card squad-card">
-              <small>Sponsors</small>
-              <h3>Club Partners</h3>
-              <p style="font-size:0.86rem; color:#4b5563; margin-top:0.5rem;">
-                Add your shirt sponsors, ball sponsors and local business partners here. This card is ideal to show
-                potential sponsors how their branding will sit alongside the squad.
-              </p>
-            </article>
+                  <div class="role-list">
+                    <div class="role-item">
+                      <div class="role-title">Club Captain</div>
+                      <div class="role-name">Javad Ismail</div>
+                      <div class="role-mini">Toss &amp; tactics · Match-day leader</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Vice-Captain</div>
+                      <div class="role-name">Majid Mohamed</div>
+                      <div class="role-mini">Top-order bat · Leadership support</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Team Manager</div>
+                      <div class="role-name">Mohamed Riyaz</div>
+                      <div class="role-mini">Logistics · Player availability</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Safeguarding Officer</div>
+                      <div class="role-name">Mohammed Kattakath</div>
+                      <div class="role-mini">Welfare &amp; DBS · Club compliance</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-card panel-card--note">
+                  <h3>Selection &amp; availability</h3>
+                  <p>
+                    Keep the squad WhatsApp updated with your availability — it helps the captain plan the XI and bowling
+                    options.
+                  </p>
+
+                  <div class="note-points">
+                    <div class="note-point"><span class="dot"></span> Confirm by Friday night for Sunday matches</div>
+                    <div class="note-point"><span class="dot"></span> Share preferred role (bat/bowl/keeper)</div>
+                    <div class="note-point"><span class="dot"></span> If late withdrawal, message captain + manager</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PLAYERS -->
+            <div class="squad-panel" role="tabpanel" data-panel="players">
+              <div class="panel-grid">
+                <div class="panel-card">
+                  <div class="panel-head">
+                    <div>
+                      <h3>Squad Roles</h3>
+                      <p>How the core group typically lines up.</p>
+                    </div>
+                    <span class="panel-pill">XI</span>
+                  </div>
+
+                  <div class="role-list">
+                    <div class="role-item">
+                      <div class="role-title">Top-order batters</div>
+                      <div class="role-name">Ashif Ashraf · Majid Mohamed · Javad Ismail</div>
+                      <div class="role-mini">Powerplay control · Chasing targets</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Middle-order / finishers</div>
+                      <div class="role-name">Mohammed Kattakath · Kamal K Pankaj</div>
+                      <div class="role-mini">Death overs · Partnership builders</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">All-rounders</div>
+                      <div class="role-name">Mohamed Riyaz · Shibin Iqbal</div>
+                      <div class="role-mini">Balance XI · Bat &amp; ball impact</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Seam &amp; spin attack</div>
+                      <div class="role-name">Ashif Ashraf · Jawid TK · Mohamed Riaz · Mohamed Siyad · Yoosu Ibrahim</div>
+                      <div class="role-mini">New-ball spells · Middle-overs control</div>
+                    </div>
+
+                    <div class="role-item">
+                      <div class="role-title">Wicketkeepers</div>
+                      <div class="role-name">Javad Ismail · Arun VK</div>
+                      <div class="role-mini">Gloves · Middle-order options</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-card panel-card--note">
+                  <h3>Want to join the squad?</h3>
+                  <p>
+                    If you’re a committed player (any standard) and can be available most Sundays, send an enquiry and we’ll
+                    invite you for nets.
+                  </p>
+                  <a class="btn-mini" href="#join">Register interest</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- SPONSORS -->
+            <div class="squad-panel" role="tabpanel" data-panel="sponsors">
+              <div class="panel-grid">
+                <div class="panel-card">
+                  <div class="panel-head">
+                    <div>
+                      <h3>Club Partners</h3>
+                      <p>Click a logo to visit sponsor website.</p>
+                    </div>
+                    <span class="panel-pill">Partners</span>
+                  </div>
+
+                  <div class="sponsor-logos">
+                    <!-- ✅ UPDATED LINK -->
+                    <a class="sponsor-logo" href="https://sellyoakchicking.co.uk/" target="_blank" rel="noopener">
+                      <img src="./sponsors/sponsor-1.png" alt="Chicking UK" loading="lazy" />
+                    </a>
+
+                    <a class="sponsor-logo" href="https://www.geepas.co.uk/" target="_blank" rel="noopener">
+                      <img src="./sponsors/sponsor-2.png" alt="Geepas UK" loading="lazy" />
+                    </a>
+
+                    <a class="sponsor-logo" href="#" onclick="return false;" title="Add sponsor-3.png">
+                      <img src="./sponsors/sponsor-3.png" alt="Sponsor logo placeholder" loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.style.opacity='0.65'; this.parentElement.textContent='Add sponsor-3.png';" />
+                    </a>
+                  </div>
+
+                  <div class="sponsor-tiers">
+                    <div class="tier">
+                      <div class="tier-title">Primary shirt sponsor</div>
+                      <div class="tier-meta">Premium slot</div>
+                    </div>
+                    <div class="tier">
+                      <div class="tier-title">Ball / match-day sponsor</div>
+                      <div class="tier-meta">Per game or season</div>
+                    </div>
+                    <div class="tier">
+                      <div class="tier-title">Community / local partner</div>
+                      <div class="tier-meta">Supporter tier</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-card panel-card--note">
+                  <h3>Become a Sponsor</h3>
+                  <p>
+                    Get logo placement on the website + match-day promotion. Ideal for local businesses targeting the West
+                    Midlands community.
+                  </p>
+                  <a class="btn-mini" href="#contact">Enquire now</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -1726,9 +1459,7 @@
         <div class="container">
           <div class="section-header">
             <h2>Match Day Moments</h2>
-            <p>
-              A few snapshots from league fixtures, tours and days out as Birmingham Mavericks.
-            </p>
+            <p>A few snapshots from league fixtures, tours and days out as Birmingham Mavericks.</p>
           </div>
 
           <div class="gallery-grid">
@@ -1753,85 +1484,46 @@
         <div class="container">
           <div class="section-header">
             <h2>Join the Mavericks</h2>
-            <p>
-              We’re actively looking for committed players for the West Midlands Sunday Border League season and
-              weekday T20 fixtures.
-            </p>
+            <p>We’re actively looking for committed players for the West Midlands Sunday Border League season and weekday T20 fixtures.</p>
           </div>
 
           <div class="two-col">
             <div>
               <ul class="list">
-                <li>
-                  <span class="bullet"></span>
-                  <span>
-                    <strong>Who we’re looking for:</strong> Adult players (18+). Batters, bowlers, all-rounders and
-                    keepers – any standard, as long as you’re serious about turning up and improving.
-                  </span>
-                </li>
-                <li>
-                  <span class="bullet"></span>
-                  <span>
-                    <strong>Match fees &amp; subs:</strong> Standard Sunday match fees plus an annual subscription to cover
-                    league costs, ground hire, balls and equipment.
-                  </span>
-                </li>
-                <li>
-                  <span class="bullet"></span>
-                  <span>
-                    <strong>Availability:</strong> Ideally most Sundays across the season, plus T20s where possible.
-                    Occasional-only players are considered but won’t be guaranteed selection.
-                  </span>
-                </li>
-                <li>
-                  <span class="bullet"></span>
-                  <span>
-                    <strong>Process:</strong> Send an enquiry via the form or Instagram, we’ll invite you to nets or a
-                    friendly, then add you into the squad group if it’s a good fit.
-                  </span>
-                </li>
+                <li><span class="bullet"></span><span><strong>Who we’re looking for:</strong> Adult players (18+). Batters, bowlers, all-rounders and keepers – any standard, as long as you’re serious about turning up and improving.</span></li>
+                <li><span class="bullet"></span><span><strong>Match fees &amp; subs:</strong> Standard Sunday match fees plus an annual subscription to cover league costs, ground hire, balls and equipment.</span></li>
+                <li><span class="bullet"></span><span><strong>Availability:</strong> Ideally most Sundays across the season, plus T20s where possible. Occasional-only players are considered but won’t be guaranteed selection.</span></li>
+                <li><span class="bullet"></span><span><strong>Process:</strong> Send an enquiry via the form or Instagram, we’ll invite you to nets or a friendly, then add you into the squad group if it’s a good fit.</span></li>
               </ul>
             </div>
 
             <div>
-              <!-- Formspree + JS redirect form -->
               <form id="joinForm">
                 <div>
                   <label for="name">Name</label>
                   <input id="name" name="name" type="text" placeholder="Your full name" required />
                 </div>
+
                 <div>
                   <label for="email">Email address</label>
                   <input id="email" name="email" type="email" placeholder="you@example.com" required />
                 </div>
+
                 <div>
                   <label for="role">Primary role</label>
-                  <input
-                    id="role"
-                    name="role"
-                    type="text"
-                    placeholder="Top-order bat, all-rounder, spinner, keeper…"
-                    required
-                  />
-                </div>
-                <div>
-                  <label for="message">Brief cricket background</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Tell us your experience, preferred formats and Sunday availability."
-                    required
-                  ></textarea>
+                  <input id="role" name="role" type="text" placeholder="Top-order bat, all-rounder, spinner, keeper…" required />
                 </div>
 
-                <!-- Honeypot field to catch bots -->
+                <div>
+                  <label for="message">Brief cricket background</label>
+                  <textarea id="message" name="message" placeholder="Tell us your experience, preferred formats and Sunday availability." required></textarea>
+                </div>
+
                 <input type="text" name="_gotcha" style="display:none" />
 
                 <div>
                   <button type="submit" class="btn-primary" id="joinSubmitBtn">Submit enquiry</button>
-                  <small class="form-hint">
-                    Your details will be emailed to the club committee – we’ll usually respond within a few days.
-                  </small>
+                  <small class="form-hint">Your details will be emailed to the club committee – we’ll usually respond within a few days.</small>
                 </div>
               </form>
             </div>
@@ -1844,57 +1536,33 @@
         <div class="container">
           <div class="section-header">
             <h2>Contact &amp; Home Ground</h2>
-            <p>
-              Use these details when contacting the club for fixtures, sponsorship or joining the squad.
-            </p>
+            <p>Use these details when contacting the club for fixtures, sponsorship or joining the squad.</p>
           </div>
 
           <div class="two-col">
             <div>
               <ul class="list">
-                <li>
-                  <span class="bullet"></span>
-                  <span><strong>Email:</strong> Birminghammaverickscc@gmail.com</span>
-                </li>
-                <li>
-                  <span class="bullet"></span>
-                  <span><strong>Phone / WhatsApp (Captain / Manager):</strong> +44 7456 462475</span>
-                </li>
+                <li><span class="bullet"></span><span><strong>Email:</strong> Birminghammaverickscc@gmail.com</span></li>
+                <li><span class="bullet"></span><span><strong>Phone / WhatsApp (Captain / Manager):</strong> +44 7456 462475</span></li>
                 <li>
                   <span class="bullet"></span>
                   <span>
                     <strong>Home ground:</strong> Located in: Old Halesonians Association Community Sports Centre<br />
                     Wassell Grove Ln, Hagley, Stourbridge DY9 9JP<br />
-                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">
-                      View on Google Maps
-                    </a>
+                    <a href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">View on Google Maps</a>
                   </span>
                 </li>
+                <li><span class="bullet"></span><span><strong>League:</strong> West Midlands Sunday Border League<br />Plus additional friendly and weekday T20 fixtures.</span></li>
                 <li>
                   <span class="bullet"></span>
-                  <span>
-                    <strong>League:</strong> West Midlands Sunday Border League<br />
-                    Plus additional friendly and weekday T20 fixtures.
-                  </span>
-                </li>
-                <li>
-                  <span class="bullet"></span>
-                  <span>
-                    <strong>Instagram:</strong>
-                    <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">
-                      @birminghammaverickscc
-                    </a>
-                  </span>
+                  <span><strong>Instagram:</strong> <a href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">@birminghammaverickscc</a></span>
                 </li>
               </ul>
             </div>
 
             <div class="map-card">
               <h3>Ground &amp; links</h3>
-              <p>
-                Share this link in WhatsApp groups, Instagram bio and league communications so players and sponsors can
-                quickly find information about Birmingham Mavericks CC.
-              </p>
+              <p>Share this link in WhatsApp groups, Instagram bio and league communications so players and sponsors can quickly find information about Birmingham Mavericks CC.</p>
               <div class="map-embed">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.6549975930484!2d-2.1073416!3d52.4333623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487091672a450f19%3A0xf42d0f64e49f6c10!2sOld%20Halesonians%20Cricket%20Club!5e1!3m2!1sen!2suk!4v1765299262507!5m2!1sen!2suk"
@@ -1913,18 +1581,14 @@
     <footer>
       <div class="container footer-row">
         <div>© <span id="year"></span> Birmingham Mavericks Cricket Club (BMCC). All rights reserved.</div>
-        <div>
-          Built for the Mavericks – customise colours, copy and fixtures as the club evolves.
-        </div>
+        <div>Built for the Mavericks – customise colours, copy and fixtures as the club evolves.</div>
       </div>
     </footer>
   </div>
 
   <script>
-    // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Join form -> Formspree submit + redirect
     document.addEventListener("DOMContentLoaded", function () {
       const form = document.getElementById("joinForm");
       if (!form) return;
@@ -1955,6 +1619,29 @@
           if (submitBtn) submitBtn.disabled = false;
         }
       });
+
+      // Squad tabs
+      (function () {
+        const tabs = document.querySelectorAll(".squad-tab");
+        const panels = document.querySelectorAll(".squad-panel");
+        if (!tabs.length || !panels.length) return;
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            const target = tab.getAttribute("data-tab");
+
+            tabs.forEach(t => {
+              t.classList.remove("is-active");
+              t.setAttribute("aria-selected", "false");
+            });
+            panels.forEach(p => p.classList.remove("is-active"));
+
+            tab.classList.add("is-active");
+            tab.setAttribute("aria-selected", "true");
+            document.querySelector(`.squad-panel[data-panel="${target}"]`)?.classList.add("is-active");
+          });
+        });
+      })();
     });
   </script>
 </body>
