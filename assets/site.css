@@ -63,12 +63,14 @@ section{padding-block:clamp(72px,11vw,140px);position:relative}
 @keyframes drift{to{transform:scale(1.06) translateX(-1.5%)}}
 .ly-stad img{filter:saturate(1.08) contrast(1.03)}
 .ly-sun{background:radial-gradient(30% 40% at 72% 8%,rgba(255,236,190,.55),transparent 70%),linear-gradient(115deg,transparent 30%,rgba(255,240,200,.16) 45%,transparent 60%);mix-blend-mode:screen;pointer-events:none}
-.ly-team{left:36%;right:0;top:auto;bottom:-3%;height:67%;pointer-events:none}
-.ly-team img{position:absolute;bottom:0;left:50%;height:100%;width:auto;max-width:none;transform:translateX(-50%);opacity:0;animation:stepin 1s cubic-bezier(.2,.8,.2,1) .2s both}
-.ly-tr img{filter:drop-shadow(0 10px 18px rgba(40,4,14,.3)) brightness(.9) saturate(.94);animation-delay:.05s}
+.ly-team{left:33%;right:0;top:auto;bottom:-3%;height:80%;pointer-events:none}
+.ly-team img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain;object-position:50% 100%;opacity:0;animation:stepin 1s cubic-bezier(.2,.8,.2,1) .2s both}
+.ly-tr img{filter:drop-shadow(0 10px 18px rgba(40,4,14,.3)) blur(.5px) brightness(.86) saturate(.9);animation-delay:.05s}
 .ly-tb img{filter:drop-shadow(0 14px 22px rgba(40,4,14,.35)) brightness(.93) saturate(.96)}
-.ly-tf img{filter:drop-shadow(0 22px 30px rgba(40,4,14,.5)) saturate(1.04);animation-delay:.38s}
-@keyframes stepin{from{opacity:0;transform:translate(-50%,24px)}to{opacity:1;transform:translate(-50%,0)}}
+.ly-tf img{filter:drop-shadow(0 26px 34px rgba(40,4,14,.55)) saturate(1.06) contrast(1.03);animation-delay:.38s}
+.ly-tf::after{content:"";position:absolute;left:12%;right:12%;bottom:-2%;height:9%;background:radial-gradient(50% 50% at 50% 50%,rgba(50,6,18,.45),transparent 70%);z-index:-1}
+#scene{perspective:1400px}
+@keyframes stepin{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 .ly-dust{pointer-events:none;background-image:radial-gradient(2px 2px at 20% 30%,rgba(255,226,160,.8),transparent),radial-gradient(1.5px 1.5px at 60% 70%,rgba(255,226,160,.7),transparent),radial-gradient(2px 2px at 80% 20%,rgba(255,255,255,.7),transparent),radial-gradient(1.5px 1.5px at 35% 80%,rgba(255,226,160,.6),transparent),radial-gradient(2.5px 2.5px at 90% 60%,rgba(255,240,200,.6),transparent);background-size:420px 420px;animation:dust 26s linear infinite;opacity:.8}
 @keyframes dust{to{background-position:0 -840px}}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -92,8 +94,8 @@ section{padding-block:clamp(72px,11vw,140px);position:relative}
 @media (max-width:900px){
   .hero-grid{grid-template-columns:minmax(0,1fr)}
   .hero{align-items:flex-start;padding-top:96px;padding-bottom:min(50svh,420px);min-height:100svh}
-  .ly-team{left:-12%;right:-12%;height:auto;aspect-ratio:1469/1020;bottom:-2%}
-  .hero{padding-bottom:calc(84vw - 20px)}
+  .ly-team{left:-6%;right:-6%;height:auto;aspect-ratio:1689/1020;bottom:-2%}
+  .hero{padding-bottom:calc(66vw - 20px)}
   .ly-team img{height:auto;width:100%}
   .ly-sky img,.ly-stad img{object-position:64% 100%}
   .hero::after{background:linear-gradient(180deg,rgba(96,10,30,.9),rgba(128,16,40,.72) 42%,rgba(150,22,48,.15) 62%,transparent 70%),linear-gradient(0deg,rgba(90,10,28,.85),transparent 16%)}

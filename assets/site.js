@@ -15,7 +15,7 @@ document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect()
 /* ---------- hero: real photo layers in 3D parallax (pointer, tilt, scroll, idle sway) ---------- */
 (function(){
   const sc=document.getElementById('scene');if(!sc)return;
-  const L=[...sc.querySelectorAll('.ly')].map(e=>[e,+e.dataset.d||0]);
+  const L=[...sc.querySelectorAll('.ly')].map(e=>[e,+e.dataset.d||0,+e.dataset.r||0]);
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   let tx=0,ty=0,cx=0,cy=0,sy=0,last=-1e9,on=true;
   addEventListener('pointermove',e=>{tx=e.clientX/innerWidth-.5;ty=e.clientY/innerHeight-.5;last=performance.now()},{passive:true});
@@ -27,7 +27,7 @@ document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect()
     let ax=tx,ay=ty;
     if(t-last>2500){ax=Math.sin(t/3800)*.32;ay=Math.cos(t/5200)*.16}
     cx+=(ax-cx)*.05;cy+=(ay-cy)*.05;
-    for(const[e,d]of L)e.style.transform=`translate3d(${(-cx*34*d).toFixed(2)}px,${(-cy*18*d-sy*d*.22).toFixed(2)}px,0) scale(${(1+sy*d/5000).toFixed(4)})`;
+    for(const[e,d,r]of L)e.style.transform=`translate3d(${(-cx*34*d).toFixed(2)}px,${(-cy*18*d-sy*d*.22).toFixed(2)}px,0)${r?` rotateY(${(cx*r).toFixed(2)}deg) rotateX(${(-cy*r*.5).toFixed(2)}deg)`:''} scale(${(1+sy*d/5000).toFixed(4)})`;
     requestAnimationFrame(f);
   }
   requestAnimationFrame(f);
