@@ -1,0 +1,2008 @@
+{
+  "syncedAt": "2026-10-08T14:17:24.362Z",
+  "season": 2026,
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "matches": 89,
+  "team": {
+    "runs": 13116,
+    "wkts": 643,
+    "sixes": 380,
+    "fours": 1379,
+    "fifties": 65
+  },
+  "bySeason": {
+    "2024": {
+      "matches": 6,
+      "runs": 584,
+      "wkts": 32
+    },
+    "2025": {
+      "matches": 32,
+      "runs": 4901,
+      "wkts": 221
+    },
+    "2026": {
+      "matches": 51,
+      "runs": 7631,
+      "wkts": 390
+    }
+  },
+  "players": [
+    {
+      "id": "6370806",
+      "name": "Ashif Ashraf",
+      "matches": 56,
+      "batting": {
+        "inns": 53,
+        "no": 3,
+        "runs": 1540,
+        "balls": 1248,
+        "fours": 158,
+        "sixes": 86,
+        "hs": "132",
+        "fifties": 10,
+        "hundreds": 2,
+        "ducks": 4,
+        "avg": 30.8,
+        "sr": 121.63
+      },
+      "bowling": {
+        "overs": "263.5",
+        "maidens": 13,
+        "runs": 1465,
+        "wkts": 64,
+        "best": "4/15",
+        "avg": 22.89,
+        "econ": 5.55
+      },
+      "catches": 7
+    },
+    {
+      "id": "6371498",
+      "name": "Majid Mohammed",
+      "matches": 52,
+      "batting": {
+        "inns": 49,
+        "no": 9,
+        "runs": 1366,
+        "balls": 1430,
+        "fours": 183,
+        "sixes": 28,
+        "hs": "100",
+        "fifties": 10,
+        "hundreds": 1,
+        "ducks": 2,
+        "avg": 34.15,
+        "sr": 92.03
+      },
+      "bowling": {
+        "overs": "11",
+        "maidens": 1,
+        "runs": 41,
+        "wkts": 3,
+        "best": "1/7",
+        "avg": 13.67,
+        "econ": 3.73
+      },
+      "catches": 37
+    },
+    {
+      "id": "3736695",
+      "name": "Javad Ismail",
+      "matches": 61,
+      "batting": {
+        "inns": 51,
+        "no": 6,
+        "runs": 1026,
+        "balls": 1110,
+        "fours": 137,
+        "sixes": 20,
+        "hs": "113",
+        "fifties": 6,
+        "hundreds": 1,
+        "ducks": 5,
+        "avg": 22.8,
+        "sr": 82.97
+      },
+      "bowling": {
+        "overs": "11",
+        "maidens": 0,
+        "runs": 78,
+        "wkts": 2,
+        "best": "1/7",
+        "avg": 39,
+        "econ": 7.09
+      },
+      "catches": 42
+    },
+    {
+      "id": "6172313",
+      "name": "Shibin Iqbal",
+      "matches": 51,
+      "batting": {
+        "inns": 47,
+        "no": 6,
+        "runs": 1000,
+        "balls": 617,
+        "fours": 106,
+        "sixes": 41,
+        "hs": "72",
+        "fifties": 8,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 24.39,
+        "sr": 123.66
+      },
+      "bowling": {
+        "overs": "134.3",
+        "maidens": 8,
+        "runs": 814,
+        "wkts": 41,
+        "best": "5/25",
+        "avg": 19.85,
+        "econ": 6.05
+      },
+      "catches": 19
+    },
+    {
+      "id": "6575131",
+      "name": "Kamal Pankajakshan",
+      "matches": 51,
+      "batting": {
+        "inns": 47,
+        "no": 4,
+        "runs": 864,
+        "balls": 819,
+        "fours": 113,
+        "sixes": 31,
+        "hs": "60",
+        "fifties": 2,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 20.09,
+        "sr": 100.24
+      },
+      "bowling": {
+        "overs": "9",
+        "maidens": 0,
+        "runs": 83,
+        "wkts": 3,
+        "best": "3/18",
+        "avg": 27.67,
+        "econ": 9.22
+      },
+      "catches": 13
+    },
+    {
+      "id": "6184742",
+      "name": "Kaushik Bandari",
+      "matches": 30,
+      "batting": {
+        "inns": 29,
+        "no": 2,
+        "runs": 737,
+        "balls": 723,
+        "fours": 74,
+        "sixes": 28,
+        "hs": "90",
+        "fifties": 6,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 27.3,
+        "sr": 98.34
+      },
+      "bowling": {
+        "overs": "111.4",
+        "maidens": 5,
+        "runs": 628,
+        "wkts": 28,
+        "best": "4/22",
+        "avg": 22.43,
+        "econ": 5.62
+      },
+      "catches": 3
+    },
+    {
+      "id": "6822717",
+      "name": "Navaneeth Chandu",
+      "matches": 27,
+      "batting": {
+        "inns": 23,
+        "no": 8,
+        "runs": 585,
+        "balls": 399,
+        "fours": 58,
+        "sixes": 6,
+        "hs": "140*",
+        "fifties": 1,
+        "hundreds": 1,
+        "ducks": 2,
+        "avg": 39,
+        "sr": 90.98
+      },
+      "bowling": {
+        "overs": "53.1",
+        "maidens": 2,
+        "runs": 299,
+        "wkts": 9,
+        "best": "2/6",
+        "avg": 33.22,
+        "econ": 5.62
+      },
+      "catches": 8
+    },
+    {
+      "id": "6336434",
+      "name": "Mohammed KM",
+      "matches": 48,
+      "batting": {
+        "inns": 39,
+        "no": 7,
+        "runs": 527,
+        "balls": 1061,
+        "fours": 44,
+        "sixes": 5,
+        "hs": "73",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 16.47,
+        "sr": 49.29
+      },
+      "bowling": {
+        "overs": "38.2",
+        "maidens": 6,
+        "runs": 274,
+        "wkts": 8,
+        "best": "2/0",
+        "avg": 34.25,
+        "econ": 7.15
+      },
+      "catches": 5
+    },
+    {
+      "id": "6790522",
+      "name": "Ribin Paulose",
+      "matches": 21,
+      "batting": {
+        "inns": 20,
+        "no": 6,
+        "runs": 512,
+        "balls": 310,
+        "fours": 41,
+        "sixes": 15,
+        "hs": "66",
+        "fifties": 3,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 36.57,
+        "sr": 106.45
+      },
+      "bowling": {
+        "overs": "59",
+        "maidens": 3,
+        "runs": 386,
+        "wkts": 14,
+        "best": "3/23",
+        "avg": 27.57,
+        "econ": 6.54
+      },
+      "catches": 2
+    },
+    {
+      "id": "6370790",
+      "name": "Mohammed Riyaz",
+      "matches": 64,
+      "batting": {
+        "inns": 36,
+        "no": 9,
+        "runs": 483,
+        "balls": 885,
+        "fours": 63,
+        "sixes": 2,
+        "hs": "130",
+        "fifties": 0,
+        "hundreds": 1,
+        "ducks": 6,
+        "avg": 17.89,
+        "sr": 54.46
+      },
+      "bowling": {
+        "overs": "296.2",
+        "maidens": 26,
+        "runs": 1604,
+        "wkts": 65,
+        "best": "6/26",
+        "avg": 24.68,
+        "econ": 5.41
+      },
+      "catches": 10
+    },
+    {
+      "id": "6950078",
+      "name": "Muhammed Mishal",
+      "matches": 25,
+      "batting": {
+        "inns": 23,
+        "no": 6,
+        "runs": 441,
+        "balls": 308,
+        "fours": 34,
+        "sixes": 37,
+        "hs": "87*",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 25.94,
+        "sr": 142.21
+      },
+      "bowling": {
+        "overs": "21",
+        "maidens": 1,
+        "runs": 125,
+        "wkts": 7,
+        "best": "2/7",
+        "avg": 17.86,
+        "econ": 5.95
+      },
+      "catches": 11
+    },
+    {
+      "id": "6563076",
+      "name": "Jithu Shijo",
+      "matches": 31,
+      "batting": {
+        "inns": 24,
+        "no": 3,
+        "runs": 385,
+        "balls": 311,
+        "fours": 49,
+        "sixes": 13,
+        "hs": "54",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 18.33,
+        "sr": 113.5
+      },
+      "bowling": {
+        "overs": "167.2",
+        "maidens": 18,
+        "runs": 856,
+        "wkts": 40,
+        "best": "5/44",
+        "avg": 21.4,
+        "econ": 5.12
+      },
+      "catches": 13
+    },
+    {
+      "id": "6575112",
+      "name": "Arun raj VMK",
+      "matches": 21,
+      "batting": {
+        "inns": 18,
+        "no": 5,
+        "runs": 287,
+        "balls": 223,
+        "fours": 24,
+        "sixes": 8,
+        "hs": "63*",
+        "fifties": 2,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 22.08,
+        "sr": 94.62
+      },
+      "bowling": {
+        "overs": "4",
+        "maidens": 0,
+        "runs": 43,
+        "wkts": 1,
+        "best": "1/43",
+        "avg": 43,
+        "econ": 10.75
+      },
+      "catches": 5
+    },
+    {
+      "id": "",
+      "name": "Unsure",
+      "matches": 7,
+      "batting": {
+        "inns": 31,
+        "no": 4,
+        "runs": 280,
+        "balls": 51,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "53*",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 7,
+        "avg": 10.37,
+        "sr": 50.98
+      },
+      "bowling": {
+        "overs": "48.1",
+        "maidens": 2,
+        "runs": 298,
+        "wkts": 8,
+        "best": "3/41",
+        "avg": 37.25,
+        "econ": 6.19
+      },
+      "catches": 32
+    },
+    {
+      "id": "6375598",
+      "name": "Sasi Kumar",
+      "matches": 19,
+      "batting": {
+        "inns": 16,
+        "no": 3,
+        "runs": 264,
+        "balls": 333,
+        "fours": 24,
+        "sixes": 2,
+        "hs": "58",
+        "fifties": 2,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 20.31,
+        "sr": 64.26
+      },
+      "bowling": {
+        "overs": "44.1",
+        "maidens": 3,
+        "runs": 254,
+        "wkts": 9,
+        "best": "5/23",
+        "avg": 28.22,
+        "econ": 5.75
+      },
+      "catches": 6
+    },
+    {
+      "id": "5383978",
+      "name": "Blesson Varghese",
+      "matches": 4,
+      "batting": {
+        "inns": 4,
+        "no": 2,
+        "runs": 237,
+        "balls": 246,
+        "fours": 23,
+        "sixes": 6,
+        "hs": "133*",
+        "fifties": 1,
+        "hundreds": 1,
+        "ducks": 0,
+        "avg": 118.5,
+        "sr": 96.34
+      },
+      "bowling": {
+        "overs": "21",
+        "maidens": 0,
+        "runs": 108,
+        "wkts": 4,
+        "best": "3/42",
+        "avg": 27,
+        "econ": 5.14
+      },
+      "catches": 2
+    },
+    {
+      "id": "6478440",
+      "name": "Sajidh Thottathil",
+      "matches": 23,
+      "batting": {
+        "inns": 21,
+        "no": 2,
+        "runs": 229,
+        "balls": 192,
+        "fours": 25,
+        "sixes": 4,
+        "hs": "35",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 12.05,
+        "sr": 98.96
+      },
+      "bowling": {
+        "overs": "67.2",
+        "maidens": 4,
+        "runs": 411,
+        "wkts": 17,
+        "best": "4/23",
+        "avg": 24.18,
+        "econ": 6.1
+      },
+      "catches": 2
+    },
+    {
+      "id": "6572528",
+      "name": "Rajesh Ravi",
+      "matches": 26,
+      "batting": {
+        "inns": 23,
+        "no": 1,
+        "runs": 224,
+        "balls": 174,
+        "fours": 27,
+        "sixes": 1,
+        "hs": "31",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 5,
+        "avg": 10.18,
+        "sr": 79.89
+      },
+      "bowling": {
+        "overs": "11.3",
+        "maidens": 0,
+        "runs": 101,
+        "wkts": 7,
+        "best": "3/12",
+        "avg": 14.43,
+        "econ": 8.78
+      },
+      "catches": 6
+    },
+    {
+      "id": "6983250",
+      "name": "Akash Nair",
+      "matches": 19,
+      "batting": {
+        "inns": 17,
+        "no": 5,
+        "runs": 218,
+        "balls": 231,
+        "fours": 18,
+        "sixes": 5,
+        "hs": "42*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 18.17,
+        "sr": 60.61
+      },
+      "bowling": {
+        "overs": "48.3",
+        "maidens": 4,
+        "runs": 245,
+        "wkts": 17,
+        "best": "2/4",
+        "avg": 14.41,
+        "econ": 5.05
+      },
+      "catches": 1
+    },
+    {
+      "id": "6372086",
+      "name": "Jawid Tk",
+      "matches": 38,
+      "batting": {
+        "inns": 26,
+        "no": 6,
+        "runs": 196,
+        "balls": 245,
+        "fours": 19,
+        "sixes": 3,
+        "hs": "22",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 5,
+        "avg": 9.8,
+        "sr": 75.51
+      },
+      "bowling": {
+        "overs": "121.1",
+        "maidens": 8,
+        "runs": 763,
+        "wkts": 37,
+        "best": "3/24",
+        "avg": 20.62,
+        "econ": 6.3
+      },
+      "catches": 11
+    },
+    {
+      "id": "6571812",
+      "name": "Rizal Mohammed",
+      "matches": 44,
+      "batting": {
+        "inns": 29,
+        "no": 11,
+        "runs": 194,
+        "balls": 450,
+        "fours": 16,
+        "sixes": 1,
+        "hs": "35",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 10.78,
+        "sr": 40
+      },
+      "bowling": {
+        "overs": "108.3",
+        "maidens": 9,
+        "runs": 674,
+        "wkts": 25,
+        "best": "3/11",
+        "avg": 26.96,
+        "econ": 6.21
+      },
+      "catches": 10
+    },
+    {
+      "id": "6157513",
+      "name": "Nihas Thajudeen Mohammed",
+      "matches": 18,
+      "batting": {
+        "inns": 16,
+        "no": 1,
+        "runs": 179,
+        "balls": 204,
+        "fours": 23,
+        "sixes": 0,
+        "hs": "57",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 11.93,
+        "sr": 58.33
+      },
+      "bowling": {
+        "overs": "4",
+        "maidens": 0,
+        "runs": 43,
+        "wkts": 0,
+        "best": "0/12",
+        "avg": null,
+        "econ": 10.75
+      },
+      "catches": 18
+    },
+    {
+      "id": "6371476",
+      "name": "muhammed siyad Kalidh",
+      "matches": 50,
+      "batting": {
+        "inns": 29,
+        "no": 10,
+        "runs": 168,
+        "balls": 356,
+        "fours": 11,
+        "sixes": 1,
+        "hs": "20",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 5,
+        "avg": 8.84,
+        "sr": 41.85
+      },
+      "bowling": {
+        "overs": "280",
+        "maidens": 18,
+        "runs": 1388,
+        "wkts": 59,
+        "best": "4/12",
+        "avg": 23.53,
+        "econ": 4.96
+      },
+      "catches": 9
+    },
+    {
+      "id": "7136010",
+      "name": "Shino Shino",
+      "matches": 6,
+      "batting": {
+        "inns": 5,
+        "no": 0,
+        "runs": 145,
+        "balls": 41,
+        "fours": 16,
+        "sixes": 3,
+        "hs": "86",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 29,
+        "sr": 56.1
+      },
+      "bowling": {
+        "overs": "28",
+        "maidens": 2,
+        "runs": 209,
+        "wkts": 9,
+        "best": "5/29",
+        "avg": 23.22,
+        "econ": 7.46
+      },
+      "catches": 3
+    },
+    {
+      "id": "6478371",
+      "name": "Shaheen Syed",
+      "matches": 16,
+      "batting": {
+        "inns": 13,
+        "no": 3,
+        "runs": 133,
+        "balls": 91,
+        "fours": 11,
+        "sixes": 6,
+        "hs": "28",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 13.3,
+        "sr": 119.78
+      },
+      "bowling": {
+        "overs": "41.1",
+        "maidens": 3,
+        "runs": 277,
+        "wkts": 6,
+        "best": "2/28",
+        "avg": 46.17,
+        "econ": 6.73
+      },
+      "catches": 2
+    },
+    {
+      "id": "7157725",
+      "name": "Nithin Nithin",
+      "matches": 3,
+      "batting": {
+        "inns": 3,
+        "no": 0,
+        "runs": 91,
+        "balls": 46,
+        "fours": 5,
+        "sixes": 9,
+        "hs": "55",
+        "fifties": 1,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 30.33,
+        "sr": 78.26
+      },
+      "bowling": {
+        "overs": "6",
+        "maidens": 2,
+        "runs": 40,
+        "wkts": 1,
+        "best": "1/4",
+        "avg": 40,
+        "econ": 6.67
+      },
+      "catches": 1
+    },
+    {
+      "id": "6377848",
+      "name": "SHINAJ NAWSHAD POOVAN KULATHIL",
+      "matches": 30,
+      "batting": {
+        "inns": 16,
+        "no": 5,
+        "runs": 81,
+        "balls": 78,
+        "fours": 10,
+        "sixes": 1,
+        "hs": "25*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 7.36,
+        "sr": 91.03
+      },
+      "bowling": {
+        "overs": "60",
+        "maidens": 0,
+        "runs": 424,
+        "wkts": 11,
+        "best": "2/5",
+        "avg": 38.55,
+        "econ": 7.07
+      },
+      "catches": 5
+    },
+    {
+      "id": "6917724",
+      "name": "Mohammed Ishaq",
+      "matches": 18,
+      "batting": {
+        "inns": 14,
+        "no": 2,
+        "runs": 80,
+        "balls": 79,
+        "fours": 5,
+        "sixes": 4,
+        "hs": "25",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 6.67,
+        "sr": 75.95
+      },
+      "bowling": {
+        "overs": "37.1",
+        "maidens": 0,
+        "runs": 238,
+        "wkts": 14,
+        "best": "3/14",
+        "avg": 17,
+        "econ": 6.4
+      },
+      "catches": 2
+    },
+    {
+      "id": "6800085",
+      "name": "Yoosaf Ibrahim",
+      "matches": 22,
+      "batting": {
+        "inns": 14,
+        "no": 7,
+        "runs": 79,
+        "balls": 80,
+        "fours": 11,
+        "sixes": 1,
+        "hs": "24",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 11.29,
+        "sr": 65
+      },
+      "bowling": {
+        "overs": "94.2",
+        "maidens": 5,
+        "runs": 550,
+        "wkts": 27,
+        "best": "3/32",
+        "avg": 20.37,
+        "econ": 5.83
+      },
+      "catches": 2
+    },
+    {
+      "id": "5626577",
+      "name": "Habeeb Pk",
+      "matches": 8,
+      "batting": {
+        "inns": 6,
+        "no": 2,
+        "runs": 55,
+        "balls": 81,
+        "fours": 7,
+        "sixes": 0,
+        "hs": "40*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 13.75,
+        "sr": 67.9
+      },
+      "bowling": {
+        "overs": "42.5",
+        "maidens": 5,
+        "runs": 227,
+        "wkts": 14,
+        "best": "5/29",
+        "avg": 16.21,
+        "econ": 5.3
+      },
+      "catches": 0
+    },
+    {
+      "id": "7077748",
+      "name": "Shyam Valsala",
+      "matches": 7,
+      "batting": {
+        "inns": 7,
+        "no": 2,
+        "runs": 50,
+        "balls": 43,
+        "fours": 5,
+        "sixes": 2,
+        "hs": "27",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 10,
+        "sr": 116.28
+      },
+      "bowling": {
+        "overs": "5",
+        "maidens": 0,
+        "runs": 35,
+        "wkts": 1,
+        "best": "1/17",
+        "avg": 35,
+        "econ": 7
+      },
+      "catches": 0
+    },
+    {
+      "id": "7157723",
+      "name": "Vinu Vinu",
+      "matches": 6,
+      "batting": {
+        "inns": 5,
+        "no": 2,
+        "runs": 50,
+        "balls": 25,
+        "fours": 3,
+        "sixes": 4,
+        "hs": "21*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 16.67,
+        "sr": 168
+      },
+      "bowling": {
+        "overs": "16",
+        "maidens": 0,
+        "runs": 119,
+        "wkts": 9,
+        "best": "3/22",
+        "avg": 13.22,
+        "econ": 7.44
+      },
+      "catches": 1
+    },
+    {
+      "id": "6537789",
+      "name": "Muhammed Rimshan K T",
+      "matches": 6,
+      "batting": {
+        "inns": 5,
+        "no": 0,
+        "runs": 45,
+        "balls": 46,
+        "fours": 6,
+        "sixes": 3,
+        "hs": "23",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 9,
+        "sr": 97.83
+      },
+      "bowling": {
+        "overs": "8",
+        "maidens": 0,
+        "runs": 42,
+        "wkts": 2,
+        "best": "1/2",
+        "avg": 21,
+        "econ": 5.25
+      },
+      "catches": 4
+    },
+    {
+      "id": "6983254",
+      "name": "Nawab Jan",
+      "matches": 5,
+      "batting": {
+        "inns": 4,
+        "no": 0,
+        "runs": 39,
+        "balls": 38,
+        "fours": 2,
+        "sixes": 1,
+        "hs": "24",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 9.75,
+        "sr": 65.79
+      },
+      "bowling": {
+        "overs": "12",
+        "maidens": 0,
+        "runs": 68,
+        "wkts": 2,
+        "best": "1/19",
+        "avg": 34,
+        "econ": 5.67
+      },
+      "catches": 1
+    },
+    {
+      "id": "6373954",
+      "name": "Muhammad Muhsin",
+      "matches": 3,
+      "batting": {
+        "inns": 2,
+        "no": 0,
+        "runs": 37,
+        "balls": 74,
+        "fours": 3,
+        "sixes": 0,
+        "hs": "22",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 18.5,
+        "sr": 50
+      },
+      "bowling": {
+        "overs": "4",
+        "maidens": 2,
+        "runs": 18,
+        "wkts": 2,
+        "best": "2/18",
+        "avg": 9,
+        "econ": 4.5
+      },
+      "catches": 1
+    },
+    {
+      "id": "6822716",
+      "name": "Eldose Pandaley",
+      "matches": 3,
+      "batting": {
+        "inns": 3,
+        "no": 0,
+        "runs": 37,
+        "balls": 23,
+        "fours": 4,
+        "sixes": 2,
+        "hs": "19",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 12.33,
+        "sr": 91.3
+      },
+      "bowling": {
+        "overs": "12.1",
+        "maidens": 0,
+        "runs": 58,
+        "wkts": 3,
+        "best": "2/28",
+        "avg": 19.33,
+        "econ": 4.77
+      },
+      "catches": 1
+    },
+    {
+      "id": "6806320",
+      "name": "Rayan -",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 31,
+        "balls": 21,
+        "fours": 3,
+        "sixes": 1,
+        "hs": "31",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 31,
+        "sr": 147.62
+      },
+      "bowling": {
+        "overs": "3",
+        "maidens": 0,
+        "runs": 31,
+        "wkts": 0,
+        "best": "0/31",
+        "avg": null,
+        "econ": 10.33
+      },
+      "catches": 1
+    },
+    {
+      "id": "6982961",
+      "name": "Nadeer Kariyari",
+      "matches": 20,
+      "batting": {
+        "inns": 11,
+        "no": 1,
+        "runs": 30,
+        "balls": 59,
+        "fours": 2,
+        "sixes": 0,
+        "hs": "9*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 4,
+        "avg": 3,
+        "sr": 23.73
+      },
+      "bowling": {
+        "overs": "63",
+        "maidens": 4,
+        "runs": 397,
+        "wkts": 16,
+        "best": "3/11",
+        "avg": 24.81,
+        "econ": 6.3
+      },
+      "catches": 3
+    },
+    {
+      "id": "6447792",
+      "name": "Shabeeb Puzhakkal",
+      "matches": 18,
+      "batting": {
+        "inns": 8,
+        "no": 4,
+        "runs": 28,
+        "balls": 51,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "8",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 7,
+        "sr": 47.06
+      },
+      "bowling": {
+        "overs": "69",
+        "maidens": 3,
+        "runs": 399,
+        "wkts": 13,
+        "best": "2/5",
+        "avg": 30.69,
+        "econ": 5.78
+      },
+      "catches": 1
+    },
+    {
+      "id": "6478288",
+      "name": "Musthafa TMK",
+      "matches": 19,
+      "batting": {
+        "inns": 8,
+        "no": 4,
+        "runs": 20,
+        "balls": 30,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "7*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 5,
+        "sr": 43.33
+      },
+      "bowling": {
+        "overs": "37",
+        "maidens": 0,
+        "runs": 251,
+        "wkts": 10,
+        "best": "3/12",
+        "avg": 25.1,
+        "econ": 6.78
+      },
+      "catches": 4
+    },
+    {
+      "id": "6790532",
+      "name": "Manu Manu",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 19,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "19",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 19,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "2",
+        "maidens": 0,
+        "runs": 19,
+        "wkts": 0,
+        "best": "0/19",
+        "avg": null,
+        "econ": 9.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "6774459",
+      "name": "Biju Cherumambayil",
+      "matches": 17,
+      "batting": {
+        "inns": 7,
+        "no": 3,
+        "runs": 16,
+        "balls": 32,
+        "fours": 2,
+        "sixes": 0,
+        "hs": "10*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 3,
+        "avg": 4,
+        "sr": 50
+      },
+      "bowling": {
+        "overs": "55.2",
+        "maidens": 3,
+        "runs": 399,
+        "wkts": 22,
+        "best": "3/10",
+        "avg": 18.14,
+        "econ": 7.21
+      },
+      "catches": 3
+    },
+    {
+      "id": "",
+      "name": "Lifath Nazeer",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 12,
+        "balls": 11,
+        "fours": 2,
+        "sixes": 0,
+        "hs": "12",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 12,
+        "sr": 109.09
+      },
+      "bowling": {
+        "overs": "15",
+        "maidens": 8,
+        "runs": 13,
+        "wkts": 0,
+        "best": "0/13",
+        "avg": null,
+        "econ": 0.87
+      },
+      "catches": 0
+    },
+    {
+      "id": "7230719",
+      "name": "Fajal -",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 1,
+        "runs": 11,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "11*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "2",
+        "maidens": 0,
+        "runs": 5,
+        "wkts": 1,
+        "best": "1/5",
+        "avg": 5,
+        "econ": 2.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Fathima Palakkat",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 10,
+        "balls": 9,
+        "fours": 2,
+        "sixes": 0,
+        "hs": "10",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 10,
+        "sr": 111.11
+      },
+      "bowling": {
+        "overs": "15",
+        "maidens": 9,
+        "runs": 9,
+        "wkts": 1,
+        "best": "1/9",
+        "avg": 9,
+        "econ": 0.6
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Sameera Kadoli",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 9,
+        "balls": 9,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "9",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 9,
+        "sr": 100
+      },
+      "bowling": {
+        "overs": "15",
+        "maidens": 2,
+        "runs": 24,
+        "wkts": 0,
+        "best": "0/24",
+        "avg": null,
+        "econ": 1.6
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Ashsraf Pk",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 8,
+        "balls": 17,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "8",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 8,
+        "sr": 47.06
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "6447721",
+      "name": "Lukman Sadique Chelakkara",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 7,
+        "balls": 11,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "7",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 7,
+        "sr": 63.64
+      },
+      "bowling": {
+        "overs": "7",
+        "maidens": 0,
+        "runs": 58,
+        "wkts": 0,
+        "best": "0/58",
+        "avg": null,
+        "econ": 8.29
+      },
+      "catches": 0
+    },
+    {
+      "id": "6447733",
+      "name": "Hari Kalluri",
+      "matches": 2,
+      "batting": {
+        "inns": 2,
+        "no": 1,
+        "runs": 7,
+        "balls": 17,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "4",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 7,
+        "sr": 41.18
+      },
+      "bowling": {
+        "overs": "6",
+        "maidens": 1,
+        "runs": 39,
+        "wkts": 1,
+        "best": "1/39",
+        "avg": 39,
+        "econ": 6.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Juma Faisal",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 7,
+        "balls": 12,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "7",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 7,
+        "sr": 58.33
+      },
+      "bowling": {
+        "overs": "10",
+        "maidens": 2,
+        "runs": 25,
+        "wkts": 0,
+        "best": "0/25",
+        "avg": null,
+        "econ": 2.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "6806322",
+      "name": "Yusuf -",
+      "matches": 3,
+      "batting": {
+        "inns": 3,
+        "no": 0,
+        "runs": 6,
+        "balls": 7,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "6",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 2,
+        "sr": 0
+      },
+      "bowling": {
+        "overs": "5.2",
+        "maidens": 0,
+        "runs": 31,
+        "wkts": 2,
+        "best": "1/5",
+        "avg": 15.5,
+        "econ": 5.81
+      },
+      "catches": 2
+    },
+    {
+      "id": "",
+      "name": "Shibina Mol",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 6,
+        "balls": 11,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "6",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 6,
+        "sr": 54.55
+      },
+      "bowling": {
+        "overs": "15",
+        "maidens": 3,
+        "runs": 30,
+        "wkts": 0,
+        "best": "0/30",
+        "avg": null,
+        "econ": 2
+      },
+      "catches": 0
+    },
+    {
+      "id": "6477467",
+      "name": "Shemeer Khan",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 5,
+        "balls": 10,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "5",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 5,
+        "sr": 50
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "6478416",
+      "name": "Salmanul Faris",
+      "matches": 2,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 5,
+        "balls": 5,
+        "fours": 1,
+        "sixes": 0,
+        "hs": "5",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 5,
+        "sr": 100
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Jaseela Jaseela",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 4,
+        "balls": 8,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "4",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 4,
+        "sr": 50
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Shihana Shibi",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 3,
+        "balls": 13,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "3",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 3,
+        "sr": 23.08
+      },
+      "bowling": {
+        "overs": "15",
+        "maidens": 5,
+        "runs": 21,
+        "wkts": 0,
+        "best": "0/21",
+        "avg": null,
+        "econ": 1.4
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Naseeha NaseehA",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 3,
+        "balls": 9,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "3",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 3,
+        "sr": 33.33
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Neha Neha",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 2,
+        "balls": 7,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "2",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 2,
+        "sr": 28.57
+      },
+      "bowling": {
+        "overs": "5",
+        "maidens": 0,
+        "runs": 16,
+        "wkts": 0,
+        "best": "0/16",
+        "avg": null,
+        "econ": 3.2
+      },
+      "catches": 0
+    },
+    {
+      "id": "6413670",
+      "name": "Shaheen Shaheen",
+      "matches": 2,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 1,
+        "balls": 2,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "1",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 1,
+        "sr": 50
+      },
+      "bowling": {
+        "overs": "6",
+        "maidens": 0,
+        "runs": 21,
+        "wkts": 2,
+        "best": "2/14",
+        "avg": 10.5,
+        "econ": 3.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "7085608",
+      "name": "Ajin Appukuttan",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 1,
+        "balls": 4,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "1",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 1,
+        "sr": 25
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    },
+    {
+      "id": "",
+      "name": "Nihal Nihal",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 1,
+        "balls": 11,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "1",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": 1,
+        "sr": 9.09
+      },
+      "bowling": {
+        "overs": "10",
+        "maidens": 4,
+        "runs": 18,
+        "wkts": 2,
+        "best": "2/18",
+        "avg": 9,
+        "econ": 1.8
+      },
+      "catches": 0
+    },
+    {
+      "id": "6413669",
+      "name": "Achu A",
+      "matches": 1,
+      "batting": {
+        "inns": 0,
+        "no": 0,
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "3",
+        "maidens": 0,
+        "runs": 14,
+        "wkts": 2,
+        "best": "2/14",
+        "avg": 7,
+        "econ": 4.67
+      },
+      "catches": 0
+    },
+    {
+      "id": "6413668",
+      "name": "Achu Achu",
+      "matches": 1,
+      "batting": {
+        "inns": 0,
+        "no": 0,
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "2",
+        "maidens": 0,
+        "runs": 11,
+        "wkts": 1,
+        "best": "1/11",
+        "avg": 11,
+        "econ": 5.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "6477465",
+      "name": "Raj Arun",
+      "matches": 3,
+      "batting": {
+        "inns": 2,
+        "no": 0,
+        "runs": 0,
+        "balls": 9,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 2,
+        "avg": 0,
+        "sr": 0
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 1
+    },
+    {
+      "id": "6477466",
+      "name": "Ribin Poulose",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 0,
+        "runs": 0,
+        "balls": 4,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 1,
+        "avg": 0,
+        "sr": 0
+      },
+      "bowling": {
+        "overs": "6",
+        "maidens": 1,
+        "runs": 31,
+        "wkts": 1,
+        "best": "1/31",
+        "avg": 31,
+        "econ": 5.17
+      },
+      "catches": 0
+    },
+    {
+      "id": "6790523",
+      "name": "Shamnad Shamnad",
+      "matches": 1,
+      "batting": {
+        "inns": 1,
+        "no": 1,
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0*",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "4",
+        "maidens": 0,
+        "runs": 10,
+        "wkts": 0,
+        "best": "0/10",
+        "avg": null,
+        "econ": 2.5
+      },
+      "catches": 0
+    },
+    {
+      "id": "6806319",
+      "name": "Riyaz -",
+      "matches": 1,
+      "batting": {
+        "inns": 0,
+        "no": 0,
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "1",
+        "maidens": 0,
+        "runs": 13,
+        "wkts": 0,
+        "best": "0/13",
+        "avg": null,
+        "econ": 13
+      },
+      "catches": 1
+    },
+    {
+      "id": "",
+      "name": "Krishna K",
+      "matches": 1,
+      "batting": {
+        "inns": 0,
+        "no": 0,
+        "runs": 0,
+        "balls": 0,
+        "fours": 0,
+        "sixes": 0,
+        "hs": "0",
+        "fifties": 0,
+        "hundreds": 0,
+        "ducks": 0,
+        "avg": null,
+        "sr": null
+      },
+      "bowling": {
+        "overs": "0",
+        "maidens": 0,
+        "runs": 0,
+        "wkts": 0,
+        "best": null,
+        "avg": null,
+        "econ": null
+      },
+      "catches": 0
+    }
+  ]
+}

@@ -1,0 +1,1885 @@
+{
+  "syncedAt": "2026-10-08T13:49:38.206Z",
+  "season": 2026,
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "results": [
+    {
+      "team": "Midweek XI",
+      "date": "2026-09-08",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 28 runs",
+      "us": {
+        "runs": 154,
+        "wkts": 4,
+        "overs": "15.0"
+      },
+      "them": {
+        "runs": 126,
+        "wkts": 9,
+        "overs": "12.4"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-09-06",
+      "comp": "Friendly",
+      "opp": "Bengal Tigers Sporting Club",
+      "oppShort": "BTSC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 68 runs",
+      "us": {
+        "runs": 138,
+        "wkts": 10,
+        "overs": "24.2"
+      },
+      "them": {
+        "runs": 70,
+        "wkts": 10,
+        "overs": "15.4"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-09-06",
+      "comp": "2026 Sunday Borders League Knockout Championship",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 9 wickets",
+      "us": {
+        "runs": 85,
+        "wkts": 6,
+        "overs": "10.0"
+      },
+      "them": {
+        "runs": 86,
+        "wkts": 1,
+        "overs": "8.0"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-09-03",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 30 runs",
+      "us": {
+        "runs": 169,
+        "wkts": 5,
+        "overs": "15.0"
+      },
+      "them": {
+        "runs": 199,
+        "wkts": 7,
+        "overs": "15.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-08-30",
+      "comp": "Friendly",
+      "opp": "Hampton In Arden Village CC",
+      "oppShort": "HIAV",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 16 runs",
+      "us": {
+        "runs": 172,
+        "wkts": 6,
+        "overs": "35.0"
+      },
+      "them": {
+        "runs": 156,
+        "wkts": 10,
+        "overs": "34.2"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-08-30",
+      "comp": "2026 Sunday Borders League Knockout Championship",
+      "opp": "Solihull Super Kings CC",
+      "oppShort": "SSKC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won",
+      "us": {
+        "runs": 181,
+        "wkts": 10,
+        "overs": "23.4"
+      },
+      "them": {
+        "runs": 260,
+        "wkts": 6,
+        "overs": "25.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-08-23",
+      "comp": "Friendly",
+      "opp": "Wolves CC Staffordshire",
+      "oppShort": "WCS",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 1 wicket",
+      "us": {
+        "runs": 192,
+        "wkts": 9,
+        "overs": "39.0"
+      },
+      "them": {
+        "runs": 189,
+        "wkts": 8,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-08-23",
+      "comp": "League",
+      "opp": "Bengal Tigers Sporting Club",
+      "oppShort": "BTSC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 15 runs",
+      "us": {
+        "runs": 161,
+        "wkts": 10,
+        "overs": "31.5"
+      },
+      "them": {
+        "runs": 176,
+        "wkts": 10,
+        "overs": "39.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-08-19",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 62 runs",
+      "us": {
+        "runs": 179,
+        "wkts": 9,
+        "overs": "18.0"
+      },
+      "them": {
+        "runs": 241,
+        "wkts": 5,
+        "overs": "18.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-08-16",
+      "comp": "Friendly",
+      "opp": "Warwickshire County Council Staff CC",
+      "oppShort": "WCCS",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 4 wickets",
+      "us": {
+        "runs": 118,
+        "wkts": 6,
+        "overs": "37.1"
+      },
+      "them": {
+        "runs": 115,
+        "wkts": 10,
+        "overs": "33.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-08-09",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 82 runs",
+      "us": {
+        "runs": 231,
+        "wkts": 7,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 149,
+        "wkts": 10,
+        "overs": "27.4"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-08-05",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 68 runs",
+      "us": {
+        "runs": 163,
+        "wkts": 10,
+        "overs": "16.4"
+      },
+      "them": {
+        "runs": 231,
+        "wkts": 4,
+        "overs": "20.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-07-28",
+      "comp": "Friendly",
+      "opp": "Sandwell Hospital",
+      "oppShort": "SH",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 131 runs",
+      "us": {
+        "runs": 235,
+        "wkts": 4,
+        "overs": "20"
+      },
+      "them": {
+        "runs": 104,
+        "wkts": 10,
+        "overs": "20"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-07-26",
+      "comp": "Friendly",
+      "opp": "Warwickshire County Council Staff CC",
+      "oppShort": "WCCS",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 6 wickets",
+      "us": {
+        "runs": 163,
+        "wkts": 4,
+        "overs": "33.1"
+      },
+      "them": {
+        "runs": 160,
+        "wkts": 10,
+        "overs": "38.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-07-26",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 181 runs",
+      "us": {
+        "runs": 253,
+        "wkts": 5,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 72,
+        "wkts": 10,
+        "overs": "23.2"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-07-23",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 47 runs",
+      "us": {
+        "runs": 254,
+        "wkts": 2,
+        "overs": "20.0"
+      },
+      "them": {
+        "runs": 207,
+        "wkts": 10,
+        "overs": "19.5"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-07-19",
+      "comp": "League",
+      "opp": "Amblecote & Wollaston CC",
+      "oppShort": "AWC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 86 runs",
+      "us": {
+        "runs": 203,
+        "wkts": 10,
+        "overs": "37.3"
+      },
+      "them": {
+        "runs": 289,
+        "wkts": 4,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-07-12",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 3 wickets",
+      "us": {
+        "runs": 203,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 205,
+        "wkts": 7,
+        "overs": "35.5"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-07-12",
+      "comp": "Friendly",
+      "opp": "West Midlands Doctors CC",
+      "oppShort": "WMDC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 38 runs",
+      "us": {
+        "runs": 234,
+        "wkts": 10,
+        "overs": "34"
+      },
+      "them": {
+        "runs": 272,
+        "wkts": 5,
+        "overs": "40"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-07-09",
+      "comp": "Friendly",
+      "opp": "Sutton Strikers CC",
+      "oppShort": "SSC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 59 runs",
+      "us": {
+        "runs": 179,
+        "wkts": 7,
+        "overs": "20.0"
+      },
+      "them": {
+        "runs": 238,
+        "wkts": 2,
+        "overs": "20.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Womens 1st XI",
+      "date": "2026-07-05",
+      "comp": "Friendly",
+      "opp": "Solihull United CC",
+      "oppShort": "SUC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 60 runs",
+      "us": {
+        "runs": 99,
+        "wkts": 5,
+        "overs": "0"
+      },
+      "them": {
+        "runs": 159,
+        "wkts": 3,
+        "overs": "0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-07-05",
+      "comp": "League",
+      "opp": "Solihull Super Kings CC",
+      "oppShort": "SSKC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 41 runs",
+      "us": {
+        "runs": 253,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 212,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-06-28",
+      "comp": "League",
+      "opp": "Wightwick & Finchfield CC",
+      "oppShort": "WFC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 8 wickets",
+      "us": {
+        "runs": 104,
+        "wkts": 2,
+        "overs": "14.4"
+      },
+      "them": {
+        "runs": 101,
+        "wkts": 10,
+        "overs": "24.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-06-28",
+      "comp": "Friendly",
+      "opp": "Walsall Unity CC",
+      "oppShort": "WUC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 5 wickets",
+      "us": {
+        "runs": 302,
+        "wkts": 5,
+        "overs": "36"
+      },
+      "them": {
+        "runs": 299,
+        "wkts": 9,
+        "overs": "40"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-06-24",
+      "comp": "Friendly",
+      "opp": "WMD CC",
+      "oppShort": "WC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 36 runs",
+      "us": {
+        "runs": 134,
+        "wkts": 10,
+        "overs": "18.3"
+      },
+      "them": {
+        "runs": 170,
+        "wkts": 8,
+        "overs": "20.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-06-21",
+      "comp": "Friendly",
+      "opp": "Boundary Breakers CC",
+      "oppShort": "BBC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 10 runs",
+      "us": {
+        "runs": 123,
+        "wkts": 10,
+        "overs": "19.1"
+      },
+      "them": {
+        "runs": 133,
+        "wkts": 6,
+        "overs": "20"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-06-21",
+      "comp": "Friendly",
+      "opp": "Boundary Breakers CC",
+      "oppShort": "BBC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 9 wickets",
+      "us": {
+        "runs": 61,
+        "wkts": 1,
+        "overs": "7.4"
+      },
+      "them": {
+        "runs": 60,
+        "wkts": 10,
+        "overs": "21.3"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-06-21",
+      "comp": "League",
+      "opp": "Himley Sri Lankans CC",
+      "oppShort": "HSLC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 8 wickets",
+      "us": {
+        "runs": 187,
+        "wkts": 2,
+        "overs": "35.4"
+      },
+      "them": {
+        "runs": 186,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-06-16",
+      "comp": "Friendly",
+      "opp": "Sandwell Hospital",
+      "oppShort": "SH",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 7 wickets",
+      "us": {
+        "runs": 123,
+        "wkts": 3,
+        "overs": "12"
+      },
+      "them": {
+        "runs": 120,
+        "wkts": 10,
+        "overs": "18.4"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-06-14",
+      "comp": "League",
+      "opp": "Solihull Super Kings CC",
+      "oppShort": "SSKC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 8 wickets",
+      "us": {
+        "runs": 46,
+        "wkts": 2,
+        "overs": "4.4"
+      },
+      "them": {
+        "runs": 44,
+        "wkts": 10,
+        "overs": "15.4"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-06-14",
+      "comp": "Friendly",
+      "opp": "West Midlands Police Veterans CC",
+      "oppShort": "WMPV",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 5 wickets",
+      "us": {
+        "runs": 90,
+        "wkts": 10,
+        "overs": "21"
+      },
+      "them": {
+        "runs": 92,
+        "wkts": 5,
+        "overs": "16"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-06-07",
+      "comp": "League",
+      "opp": "Himley Sri Lankans CC",
+      "oppShort": "HSLC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost",
+      "us": {
+        "runs": 210,
+        "wkts": 10,
+        "overs": "31.0"
+      },
+      "them": {
+        "runs": 154,
+        "wkts": 2,
+        "overs": "24.0"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-06-07",
+      "comp": "Friendly",
+      "opp": "West Midlands Police Veterans CC",
+      "oppShort": "WMPV",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 5 wickets",
+      "us": {
+        "runs": 129,
+        "wkts": 5,
+        "overs": "28"
+      },
+      "them": {
+        "runs": 128,
+        "wkts": 10,
+        "overs": "30"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-06-03",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "A",
+      "text": "Abandoned",
+      "us": null,
+      "them": null,
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-05-31",
+      "comp": "Friendly",
+      "opp": "Brummies CC",
+      "oppShort": "BC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 74 runs",
+      "us": {
+        "runs": 178,
+        "wkts": 10,
+        "overs": "34.3"
+      },
+      "them": {
+        "runs": 252,
+        "wkts": 10,
+        "overs": "34.5"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-05-31",
+      "comp": "League",
+      "opp": "Bengal Tigers Sporting Club",
+      "oppShort": "BTSC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 5 wickets",
+      "us": {
+        "runs": 160,
+        "wkts": 10,
+        "overs": "36.0"
+      },
+      "them": {
+        "runs": 162,
+        "wkts": 5,
+        "overs": "26.1"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-05-28",
+      "comp": "Friendly",
+      "opp": "WMD CC",
+      "oppShort": "WC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 4 wickets",
+      "us": {
+        "runs": 115,
+        "wkts": 10,
+        "overs": "18.0"
+      },
+      "them": {
+        "runs": 117,
+        "wkts": 6,
+        "overs": "16.1"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2026-05-26",
+      "comp": "Friendly",
+      "opp": "Water Orton CC",
+      "oppShort": "WOC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 1 wicket",
+      "us": {
+        "runs": 82,
+        "wkts": 10,
+        "overs": "17.5"
+      },
+      "them": {
+        "runs": 86,
+        "wkts": 9,
+        "overs": "17.2"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-05-24",
+      "comp": "Friendly",
+      "opp": "Warwickshire County Council Staff CC",
+      "oppShort": "WCCS",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 5 wickets",
+      "us": {
+        "runs": 119,
+        "wkts": 10,
+        "overs": "26.3"
+      },
+      "them": {
+        "runs": 121,
+        "wkts": 5,
+        "overs": "22"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-05-24",
+      "comp": "League",
+      "opp": "Amblecote & Wollaston CC",
+      "oppShort": "AWC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 125 runs",
+      "us": {
+        "runs": 252,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 127,
+        "wkts": 10,
+        "overs": "27.4"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-05-17",
+      "comp": "Friendly",
+      "opp": "Brummie Malayali CC",
+      "oppShort": "BMC",
+      "home": true,
+      "outcome": "A",
+      "text": "Abandoned",
+      "us": null,
+      "them": null,
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-05-17",
+      "comp": "League",
+      "opp": "Wightwick & Finchfield CC",
+      "oppShort": "WFC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 56 runs",
+      "us": {
+        "runs": 212,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 268,
+        "wkts": 7,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-05-10",
+      "comp": "Friendly",
+      "opp": "Aston Unity CC",
+      "oppShort": "AUC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 2 wickets",
+      "us": {
+        "runs": 196,
+        "wkts": 8,
+        "overs": "39.3"
+      },
+      "them": {
+        "runs": 195,
+        "wkts": 9,
+        "overs": "39.4"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2026-05-10",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 19 runs",
+      "us": {
+        "runs": 203,
+        "wkts": 8,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 222,
+        "wkts": 10,
+        "overs": "39.1"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-04-26",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 6 wickets",
+      "us": {
+        "runs": 314,
+        "wkts": 4,
+        "overs": "39.1"
+      },
+      "them": {
+        "runs": 313,
+        "wkts": 10,
+        "overs": "37.1"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-04-26",
+      "comp": "Friendly",
+      "opp": "Boundary Breakers CC",
+      "oppShort": "BBC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 1 wicket",
+      "us": {
+        "runs": 159,
+        "wkts": 10,
+        "overs": "37.3"
+      },
+      "them": {
+        "runs": 161,
+        "wkts": 9,
+        "overs": "33.2"
+      },
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-04-19",
+      "comp": "Friendly",
+      "opp": "Water Orton CC",
+      "oppShort": "WOC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 70 runs",
+      "us": {
+        "runs": 192,
+        "wkts": 8,
+        "overs": "40"
+      },
+      "them": {
+        "runs": 262,
+        "wkts": 6,
+        "overs": "40"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-04-19",
+      "comp": "Friendly",
+      "opp": "Hampton In Arden Village CC",
+      "oppShort": "HIAV",
+      "home": true,
+      "outcome": "A",
+      "text": "Abandoned",
+      "us": null,
+      "them": null,
+      "usFirst": true,
+      "season": 2026
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2026-04-11",
+      "comp": "Friendly",
+      "opp": "Old Halesonians CC",
+      "oppShort": "OHC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 25 runs",
+      "us": {
+        "runs": 164,
+        "wkts": 4,
+        "overs": "20"
+      },
+      "them": {
+        "runs": 189,
+        "wkts": 4,
+        "overs": "20"
+      },
+      "usFirst": false,
+      "season": 2026
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-09-21",
+      "comp": "Sunday Borders League Knockout Championship",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 7 wickets",
+      "us": {
+        "runs": 145,
+        "wkts": 10,
+        "overs": "37.4"
+      },
+      "them": {
+        "runs": 146,
+        "wkts": 3,
+        "overs": "31.1"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-09-07",
+      "comp": "Sunday Borders League Knockout Championship",
+      "opp": "Wightwick & Finchfield CC",
+      "oppShort": "WFC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 38 runs",
+      "us": {
+        "runs": 162,
+        "wkts": 9,
+        "overs": "28.0"
+      },
+      "them": {
+        "runs": 124,
+        "wkts": 10,
+        "overs": "23.5"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2025-08-31",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 95 runs",
+      "us": {
+        "runs": 306,
+        "wkts": 10,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 401,
+        "wkts": 5,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-08-24",
+      "comp": "League",
+      "opp": "Amblecote & Wollaston CC",
+      "oppShort": "AWC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 105 runs",
+      "us": {
+        "runs": 238,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 133,
+        "wkts": 10,
+        "overs": "33.3"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-08-17",
+      "comp": "League",
+      "opp": "Wightwick & Finchfield CC",
+      "oppShort": "WFC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 62 runs",
+      "us": {
+        "runs": 244,
+        "wkts": 9,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 182,
+        "wkts": 10,
+        "overs": "38.1"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-08-10",
+      "comp": "League",
+      "opp": "Halesowen CC",
+      "oppShort": "HC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 34 runs",
+      "us": {
+        "runs": 246,
+        "wkts": 8,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 212,
+        "wkts": 10,
+        "overs": "39.1"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-08-06",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 8 wickets",
+      "us": {
+        "runs": 116,
+        "wkts": 10,
+        "overs": "19.4"
+      },
+      "them": {
+        "runs": 117,
+        "wkts": 2,
+        "overs": "14.5"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-08-03",
+      "comp": "League",
+      "opp": "Himley Sri Lankans CC",
+      "oppShort": "HSLC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 6 runs",
+      "us": {
+        "runs": 277,
+        "wkts": 10,
+        "overs": "39.5"
+      },
+      "them": {
+        "runs": 283,
+        "wkts": 10,
+        "overs": "38.1"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-07-27",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 30 runs",
+      "us": {
+        "runs": 213,
+        "wkts": 8,
+        "overs": "40.0"
+      },
+      "them": {
+        "runs": 243,
+        "wkts": 7,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-07-24",
+      "comp": "Friendly",
+      "opp": "Walsall Unity CC",
+      "oppShort": "WUC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 35 runs",
+      "us": {
+        "runs": 184,
+        "wkts": 9,
+        "overs": "20"
+      },
+      "them": {
+        "runs": 219,
+        "wkts": 9,
+        "overs": "20"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-07-20",
+      "comp": "League",
+      "opp": "Himley Sri Lankans CC",
+      "oppShort": "HSLC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 9 wickets",
+      "us": {
+        "runs": 113,
+        "wkts": 1,
+        "overs": "18.5"
+      },
+      "them": {
+        "runs": 112,
+        "wkts": 10,
+        "overs": "37.4"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Friendly 2nd XI ",
+      "date": "2025-07-13",
+      "comp": "Friendly",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 38 runs",
+      "us": {
+        "runs": 129,
+        "wkts": 5,
+        "overs": "15.0"
+      },
+      "them": {
+        "runs": 91,
+        "wkts": 9,
+        "overs": "15.0"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2025-07-13",
+      "comp": "Friendly",
+      "opp": "Aston Unity CC",
+      "oppShort": "AUC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 37 runs",
+      "us": {
+        "runs": 141,
+        "wkts": 10,
+        "overs": "26.5"
+      },
+      "them": {
+        "runs": 178,
+        "wkts": 10,
+        "overs": "32.4"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Friendly 2nd XI ",
+      "date": "2025-07-13",
+      "comp": "Friendly",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 9 wickets",
+      "us": {
+        "runs": 111,
+        "wkts": 1,
+        "overs": "18.0"
+      },
+      "them": {
+        "runs": 93,
+        "wkts": 10,
+        "overs": "24.2"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-07-06",
+      "comp": "League",
+      "opp": "Springhill CC",
+      "oppShort": "SC",
+      "home": true,
+      "outcome": "CON",
+      "text": "CON",
+      "us": null,
+      "them": null,
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-07-02",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 42 runs",
+      "us": {
+        "runs": 215,
+        "wkts": 8,
+        "overs": "20"
+      },
+      "them": {
+        "runs": 257,
+        "wkts": 10,
+        "overs": "19.5"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-06-29",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 8 wickets",
+      "us": {
+        "runs": 159,
+        "wkts": 2,
+        "overs": "22.4"
+      },
+      "them": {
+        "runs": 156,
+        "wkts": 10,
+        "overs": "35.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-06-22",
+      "comp": "League",
+      "opp": "Amblecote & Wollaston CC",
+      "oppShort": "AWC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 7 wickets",
+      "us": {
+        "runs": 180,
+        "wkts": 3,
+        "overs": "22.3"
+      },
+      "them": {
+        "runs": 177,
+        "wkts": 10,
+        "overs": "36.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Friendly XI",
+      "date": "2025-06-15",
+      "comp": "Friendly",
+      "opp": "West Midlands Police Veterans CC",
+      "oppShort": "WMPV",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 49 runs",
+      "us": {
+        "runs": 177,
+        "wkts": 10,
+        "overs": "27"
+      },
+      "them": {
+        "runs": 226,
+        "wkts": 5,
+        "overs": "35"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-06-15",
+      "comp": "League",
+      "opp": "Springhill CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "A",
+      "text": "Abandoned",
+      "us": {
+        "runs": 257,
+        "wkts": 10,
+        "overs": "39.2"
+      },
+      "them": {
+        "runs": 172,
+        "wkts": 7,
+        "overs": "27.5"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-06-08",
+      "comp": "Friendly",
+      "opp": "Warwickshire County Council Staff CC",
+      "oppShort": "WCCS",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 7 wickets",
+      "us": {
+        "runs": 110,
+        "wkts": 10,
+        "overs": "30.1"
+      },
+      "them": {
+        "runs": 111,
+        "wkts": 3,
+        "overs": "21.4"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-06-01",
+      "comp": "League",
+      "opp": "Halesowen CC",
+      "oppShort": "HC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 153 runs",
+      "us": {
+        "runs": 138,
+        "wkts": 10,
+        "overs": "39.1"
+      },
+      "them": {
+        "runs": 291,
+        "wkts": 5,
+        "overs": "40"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-05-30",
+      "comp": "Friendly",
+      "opp": "Walsall Unity CC",
+      "oppShort": "WUC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 10 wickets",
+      "us": {
+        "runs": 206,
+        "wkts": 5,
+        "overs": "20"
+      },
+      "them": {
+        "runs": 208,
+        "wkts": 0,
+        "overs": "14.2"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-05-25",
+      "comp": "Friendly",
+      "opp": "Hampton In Arden Village CC",
+      "oppShort": "HIAV",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 5 wickets",
+      "us": {
+        "runs": 245,
+        "wkts": 5,
+        "overs": "39.3"
+      },
+      "them": {
+        "runs": 244,
+        "wkts": 5,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-05-21",
+      "comp": "Friendly",
+      "opp": "Dudley Doosras CC",
+      "oppShort": "DDC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 9 wickets",
+      "us": {
+        "runs": 96,
+        "wkts": 10,
+        "overs": "17.4"
+      },
+      "them": {
+        "runs": 97,
+        "wkts": 1,
+        "overs": "12.4"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-05-18",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "L",
+      "text": "Lost by 33 runs",
+      "us": {
+        "runs": 116,
+        "wkts": 10,
+        "overs": "30.0"
+      },
+      "them": {
+        "runs": 149,
+        "wkts": 10,
+        "overs": "30.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "Midweek XI",
+      "date": "2025-05-13",
+      "comp": "Friendly",
+      "opp": "Walsall Unity CC",
+      "oppShort": "WUC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 8 wickets",
+      "us": {
+        "runs": 190,
+        "wkts": 5,
+        "overs": "18"
+      },
+      "them": {
+        "runs": 192,
+        "wkts": 2,
+        "overs": "17.1"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-05-11",
+      "comp": "League",
+      "opp": "Wightwick & Finchfield CC",
+      "oppShort": "WFC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 24 runs",
+      "us": {
+        "runs": 207,
+        "wkts": 10,
+        "overs": "35.5"
+      },
+      "them": {
+        "runs": 231,
+        "wkts": 8,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-05-04",
+      "comp": "League",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": true,
+      "outcome": "W",
+      "text": "Won by 7 wickets",
+      "us": {
+        "runs": 128,
+        "wkts": 3,
+        "overs": "18.5"
+      },
+      "them": {
+        "runs": 125,
+        "wkts": 10,
+        "overs": "27.5"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-04-27",
+      "comp": "Friendly",
+      "opp": "Sportsman CC",
+      "oppShort": "SC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 166 runs",
+      "us": {
+        "runs": 81,
+        "wkts": 10,
+        "overs": "23.4"
+      },
+      "them": {
+        "runs": 247,
+        "wkts": 10,
+        "overs": "38.0"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-04-20",
+      "comp": "Friendly",
+      "opp": "East Midlands CC",
+      "oppShort": "EMC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 6 wickets",
+      "us": {
+        "runs": 151,
+        "wkts": 4,
+        "overs": "27.5"
+      },
+      "them": {
+        "runs": 150,
+        "wkts": 10,
+        "overs": "33.3"
+      },
+      "usFirst": false,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2025-04-13",
+      "comp": "Friendly",
+      "opp": "Eccleshall CC",
+      "oppShort": "EC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 8 wickets",
+      "us": {
+        "runs": 161,
+        "wkts": 10,
+        "overs": "38.2"
+      },
+      "them": {
+        "runs": 229,
+        "wkts": 2,
+        "overs": "32.5"
+      },
+      "usFirst": true,
+      "season": 2025
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-10-05",
+      "comp": "Friendly",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 6 wickets",
+      "us": {
+        "runs": 179,
+        "wkts": 4,
+        "overs": "15.3"
+      },
+      "them": {
+        "runs": 174,
+        "wkts": 6,
+        "overs": "30.0"
+      },
+      "usFirst": false,
+      "season": 2024
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-09-22",
+      "comp": "Friendly",
+      "opp": "Bharat Parivar CC",
+      "oppShort": "BPC",
+      "home": false,
+      "outcome": "A",
+      "text": "Abandoned",
+      "us": null,
+      "them": null,
+      "usFirst": false,
+      "season": 2024
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-08-11",
+      "comp": "Friendly",
+      "opp": "Moddershall CC",
+      "oppShort": "MC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 242 runs",
+      "us": {
+        "runs": 91,
+        "wkts": 10,
+        "overs": "23.4"
+      },
+      "them": {
+        "runs": 333,
+        "wkts": 4,
+        "overs": "40.0"
+      },
+      "usFirst": false,
+      "season": 2024
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-07-21",
+      "comp": "Friendly",
+      "opp": "Solihull Super Kings CC",
+      "oppShort": "SSKC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 6 wickets",
+      "us": {
+        "runs": 126,
+        "wkts": 4,
+        "overs": "23.3"
+      },
+      "them": {
+        "runs": 122,
+        "wkts": 10,
+        "overs": "31"
+      },
+      "usFirst": false,
+      "season": 2024
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-06-23",
+      "comp": "Friendly",
+      "opp": "East Midlands CC",
+      "oppShort": "EMC",
+      "home": false,
+      "outcome": "L",
+      "text": "Lost by 7 wickets",
+      "us": {
+        "runs": 95,
+        "wkts": 7,
+        "overs": "20.0"
+      },
+      "them": {
+        "runs": 96,
+        "wkts": 3,
+        "overs": "16.0"
+      },
+      "usFirst": true,
+      "season": 2024
+    },
+    {
+      "team": "1st XI",
+      "date": "2024-06-23",
+      "comp": "Friendly",
+      "opp": "East Midlands CC",
+      "oppShort": "EMC",
+      "home": false,
+      "outcome": "W",
+      "text": "Won by 10 wickets",
+      "us": {
+        "runs": 93,
+        "wkts": 0,
+        "overs": "7.1"
+      },
+      "them": {
+        "runs": 92,
+        "wkts": 6,
+        "overs": "10.0"
+      },
+      "usFirst": false,
+      "season": 2024
+    }
+  ]
+}
