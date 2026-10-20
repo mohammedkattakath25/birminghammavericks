@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Club · Birmingham Mavericks CC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="sub">
+<div class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="crest-sm" src="assets/crest.webp" alt="Birmingham Mavericks crest" width="34" height="43">Mavericks</a>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="squad.html">Squad</a></li>
+      <li><a href="results.html">Results</a></li>
+      <li><a href="results.html#fixtures">Fixtures</a></li>
+      <li><a href="club.html" aria-current="page">Club</a></li>
+      <li><a href="club.html#faq">FAQ</a></li>
+      <li><a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket ↗</a></li>
+    </ul>
+    <a class="pill" href="club.html#join">Join the squad</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</div>
+
+<main>
+<section class="club" id="club">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">Club management</p>
+      <h2 class="big" style="margin-top:14px">The Dressing Room<em>who runs match day</em></h2>
+    </div>
+    <div class="people">
+      <div class="person rv"><div class="r">Club Captain</div><h3>Javad Ismail</h3><p>Toss, tactics and match-day leadership. Also keeps wicket.</p></div>
+      <div class="person rv"><div class="r">Vice-Captain</div><h3>Majid Mohamed</h3><p>Top-order batter and leadership support.</p></div>
+      <div class="person rv"><div class="r">Team Manager</div><h3>Mohamed Riyaz</h3><p>Logistics and player availability.</p></div>
+      <div class="person rv"><div class="r">Safeguarding Officer</div><h3>Mohammed Kattakath</h3><p>Welfare, DBS and compliance.</p></div>
+    </div>
+    <div class="roles">
+      <div class="rl rv"><h4>Top order</h4><p>Ashif Ashraf · Majid Mohamed · Javad Ismail</p></div>
+      <div class="rl rv"><h4>Middle order & finishers</h4><p>Mohammed Kattakath · Kamal K Pankaj</p></div>
+      <div class="rl rv"><h4>All-rounders</h4><p>Mohamed Riyaz · Shibin Iqbal</p></div>
+      <div class="rl rv"><h4>Seam & spin</h4><p>Ashif Ashraf · Jawid TK · Mohamed Riaz · Mohamed Siyad · Yoosu Ibrahim</p></div>
+      <div class="rl rv"><h4>Wicketkeepers</h4><p>Javad Ismail · Arun VK</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="join" id="join">
+  <div class="wrap">
+    <div class="join-card rv">
+      <p class="eyebrow">Adults 18+ · any standard</p>
+      <h2 class="big" style="margin-top:14px">Pad Up<em>come and play for the Mavericks</em></h2>
+      <div class="steps">
+        <div class="step"><h3>Enquire</h3><p>Send the form below or message us on Instagram. Tell us whether you bat, bowl or keep.</p></div>
+        <div class="step"><h3>Nets or a friendly</h3><p>We invite you to a nets session or a friendly so we can see you play.</p></div>
+        <div class="step"><h3>Join the group</h3><p>Successful players are added to the squad group and picked from there.</p></div>
+      </div>
+      <div class="facts">
+        <div><h4>Commitment</h4><p>Ideally most Sundays, plus T20s where you can. Occasional players are welcome, but selection isn't guaranteed.</p></div>
+        <div><h4>Fees</h4><p>Standard Sunday match fees plus an annual subscription that covers league costs, ground hire, balls and kit.</p></div>
+        <div><h4>Availability</h4><p>Confirm by Friday night for Sunday matches. For late withdrawals, message the captain and manager.</p></div>
+      </div>
+      <form class="enq" id="enq" novalidate>
+        <label for="f-name">Name<input id="f-name" name="name" required autocomplete="name"></label>
+        <label for="f-contact">Phone or email<input id="f-contact" name="contact" required></label>
+        <label for="f-role">Main role<select id="f-role" name="role"><option>Batter</option><option>Bowler – seam</option><option>Bowler – spin</option><option>All-rounder</option><option>Wicketkeeper</option></select></label>
+        <label for="f-avail">Availability<select id="f-avail" name="avail"><option>Most Sundays</option><option>Sundays + T20s</option><option>Occasional</option></select></label>
+        <label class="full" for="f-msg">About your cricket<textarea id="f-msg" name="msg" placeholder="Clubs played for, level, anything we should know"></textarea></label>
+        <div class="full" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><button class="pill red" type="submit">Send enquiry</button></div>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><p class="formnote" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <h2 class="big rv">Questions<em>before your first Sunday</em></h2>
+    <div class="faq-list">
+      <details><summary>Where do you play home games?</summary><p>Old Halesonians Association Community Sports Centre, Wassell Grove Ln, Hagley, Stourbridge DY9 9JP.</p></details>
+      <details><summary>What kind of cricket is it?</summary><p>Hard-ball adult cricket. League matches in the West Midlands Sunday Border League are 40 overs a side, and we add weekday T20s and friendlies.</p></details>
+      <details><summary>When is the season?</summary><p>Matches run from April to September. We net during the season and indoors through the winter.</p></details>
+      <details><summary>Do I need to be a certain standard?</summary><p>No. We take adults of any standard who are committed to turning up and improving.</p></details>
+      <details><summary>How does selection work?</summary><p>Confirm your availability by Friday night for Sunday matches and tell us your preferred role. Regular availability gives you the best chance of selection.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="sponsors" style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">Sponsors & partners</p>
+      <h2 class="big" style="margin-top:14px">Backed By<em>local businesses behind the club</em></h2>
+    </div>
+    <div class="spons">
+      <a class="sp logo rv" href="#contact"><span class="t">Official sponsor</span><img src="assets/sp_staycool.webp" alt="Staycool, fresh breath confidence" width="900" height="442"></a>
+      <a class="sp logo rv" href="#contact"><span class="t">Official sponsor</span><img src="assets/sp_faani.webp" alt="Faani by Fair" width="861" height="565"></a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:0;padding-bottom:0">
+  <div class="wrap">
+    <h2 class="big rv">Get In Touch<em>email, call or come down</em></h2>
+    <div class="contact">
+      <div class="ct rv"><span class="t">Email</span><span class="v" id="em">Birminghammaverickscc@gmail.com</span><div class="acts"><button class="pill ghost" data-copy="em">Copy</button></div></div>
+      <div class="ct rv"><span class="t">Phone / WhatsApp · Captain & Manager</span><span class="v" id="ph">+44 7456 462475</span><div class="acts"><button class="pill ghost" data-copy="ph">Copy</button></div></div>
+      <div class="ct rv"><span class="t">Home ground</span><span class="v">Wassell Grove Ln, Hagley, Stourbridge DY9 9JP</span><div class="acts"><a class="pill ghost" href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">Directions ↗</a><a class="pill ghost" href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">Instagram ↗</a></div></div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p class="sign" aria-hidden="true">Mavericks</p>
+      <small>© Birmingham Mavericks Cricket Club · Est. 2024</small>
+      <small>@birminghammaverickscc</small>
+    </div>
+  </footer>
+</section>
+</main>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

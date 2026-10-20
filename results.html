@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Results & Fixtures · Birmingham Mavericks CC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="sub">
+<div class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="crest-sm" src="assets/crest.webp" alt="Birmingham Mavericks crest" width="34" height="43">Mavericks</a>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="squad.html">Squad</a></li>
+      <li><a href="results.html" aria-current="page">Results</a></li>
+      <li><a href="results.html#fixtures">Fixtures</a></li>
+      <li><a href="club.html">Club</a></li>
+      <li><a href="club.html#faq">FAQ</a></li>
+      <li><a href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Play-Cricket ↗</a></li>
+    </ul>
+    <a class="pill" href="club.html#join">Join the squad</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</div>
+
+<main>
+<section id="results" class="scorebook">
+  <div class="wrap split">
+    <div class="rv sb-left">
+      <p class="eyebrow">2024 to 2026 · from Play-Cricket</p>
+      <div class="sfilter" id="sFilter" role="tablist" aria-label="Season"></div>
+      <h2 class="big" style="margin-top:14px">Scorebook<em>the latest from the middle</em></h2>
+      <p class="sync" id="syncNote"></p>
+      <div class="form-guide"><span class="fg-l">Last 10</span><div id="formGuide"></div></div>
+      <div class="sb-kit" aria-hidden="true"><div class="kit3d"><img class="kf" src="assets/jersey_front.webp" alt=""><img class="kb" src="assets/jersey_back.webp" alt=""></div><div class="kit-floor"></div><span>The new kit, front and back</span></div>
+    </div>
+    <div><div class="record" id="record"></div><div class="scorecards" id="scorecards"></div><button class="pill ghost more" id="moreRes" type="button" hidden>Show all results</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="fixtures" style="padding-top:0">
+  <div class="wrap">
+    <div class="rv" style="display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap">
+      <h2 class="big">Fixtures<em>where to find us next</em></h2>
+      <a class="pill ghost" href="https://birminghammavericks.play-cricket.com/home" target="_blank" rel="noopener">Full list on Play-Cricket ↗</a>
+    </div>
+    <div class="fixtures" id="fixtureList"></div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:0;padding-bottom:0">
+  <div class="wrap">
+    <h2 class="big rv">Get In Touch<em>email, call or come down</em></h2>
+    <div class="contact">
+      <div class="ct rv"><span class="t">Email</span><span class="v" id="em">Birminghammaverickscc@gmail.com</span><div class="acts"><button class="pill ghost" data-copy="em">Copy</button></div></div>
+      <div class="ct rv"><span class="t">Phone / WhatsApp · Captain & Manager</span><span class="v" id="ph">+44 7456 462475</span><div class="acts"><button class="pill ghost" data-copy="ph">Copy</button></div></div>
+      <div class="ct rv"><span class="t">Home ground</span><span class="v">Wassell Grove Ln, Hagley, Stourbridge DY9 9JP</span><div class="acts"><a class="pill ghost" href="https://maps.app.goo.gl/rfnN1PCCWgFkEgAQ6" target="_blank" rel="noopener">Directions ↗</a><a class="pill ghost" href="https://www.instagram.com/birminghammaverickscc/" target="_blank" rel="noopener">Instagram ↗</a></div></div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p class="sign" aria-hidden="true">Mavericks</p>
+      <small>© Birmingham Mavericks Cricket Club · Est. 2024</small>
+      <small>@birminghammaverickscc</small>
+    </div>
+  </footer>
+</section>
+</main>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
