@@ -263,24 +263,24 @@ let PLAYERS={"syncedAt":"2026-10-08T14:17:24.362Z","season":2026,"seasons":[2024
 /* Photos: put each player's photo at players/<slug>.jpg (portrait, ideally 800x1080).
    Missing photos fall back to a silhouette in the player's colour. */
 const FEATURED=[
-  {pc:'Ashif Ashraf',n:'Ashif Ashraf',role:'Top-order bat & seamer',h:342},
-  {pc:'Shibin Iqbal',n:'Shibin Iqbal',role:'All-rounder',h:350},
-  {pc:'Mohammed Riyaz',n:'Mohammed Riyaz',role:'Team manager · opening bowler',h:338},
-  {pc:'Mohammed KM',n:'Mohammed Kattakath',role:'Middle order · safeguarding officer',h:2},
-  {pc:'Majid Mohammed',n:'Majid Mohammed',role:'Vice-captain · top-order bat',h:352},
-  {pc:'Javad Ismail',n:'Javad Ismail',role:'Club captain · wicketkeeper',h:334},
-  {pc:'muhammed siyad Kalidh',n:'Muhammed Siyad Kalidh',role:'Seam bowler',h:336},
-  {pc:'Kamal Pankajakshan',n:'Kamal Pankajakshan',role:'Middle-order bat',h:358},
-  {pc:'Navaneeth Chandu',n:'Navaneeth Chandu',role:'Top-order batter',h:346},
-  {pc:'Kaushik Bandari',n:'Kaushik Bandari',role:'All-rounder',h:356},
-  {pc:'Jithu Shijo',n:'Jithu Shijo',role:'Seam bowler',h:348},
-  {pc:'Muhammed Mishal',n:'Muhammed Mishal',role:'Finisher',h:4},
-  {pc:'Ribin Paulose',n:'Ribin Paulose',role:'Batting all-rounder',h:340},
-  {pc:'Biju Cherumambayil',n:'Biju Cherumambayil',role:'Bowler',h:344},
-  {pc:'Shaheen Syed',n:'Shaheen Syed',role:'All-rounder',h:340},
-  {pc:'SHINAJ NAWSHAD POOVAN KULATHIL',n:'Shinaj Nawshad',role:'Bowler',h:348},
-  {pc:'Musthafa TMK',n:'Musthafa TMK',role:'Bowler',h:336},
-  {pc:'Rizal Mohammed',n:'Rizal Mohammed',role:'Bowler',h:344},
+  {pc:'Ashif Ashraf',n:'Ashif Ashraf',sh:'ASHIF',num:'00',role:'Top-order bat & seamer',h:342},
+  {pc:'Shibin Iqbal',n:'Shibin Iqbal',sh:'SHIBI',num:'09',role:'All-rounder',h:350},
+  {pc:'Mohammed Riyaz',n:'Mohammed Riyaz',sh:'RIYAZ',num:'8',role:'Team manager · opening bowler',h:338},
+  {pc:'Mohammed KM',n:'Mohammed Kattakath',sh:'MOMU',num:'10',role:'Middle order · safeguarding officer',h:2},
+  {pc:'Majid Mohammed',n:'Majid Mohammed',sh:'MAJID',num:'3',role:'Vice-captain · top-order bat',h:352},
+  {pc:'Javad Ismail',n:'Javad Ismail',sh:'JVD',num:'7',role:'Club captain · wicketkeeper',h:334},
+  {pc:'muhammed siyad Kalidh',n:'Muhammed Siyad Kalidh',sh:'SIYAD',num:'19',role:'Seam bowler',h:336},
+  {pc:'Kamal Pankajakshan',n:'Kamal Pankajakshan',sh:'KAMAL',num:'06',role:'Middle-order bat',h:358},
+  {pc:'Navaneeth Chandu',n:'Navaneeth Chandu',sh:'CHANDU',num:'29',role:'Top-order batter',h:346},
+  {pc:'Kaushik Bandari',n:'Kaushik Bandari',sh:'K.B',num:'17',role:'All-rounder',h:356},
+  {pc:'Jithu Shijo',n:'Jithu Shijo',sh:'JITHU',num:'45',role:'Seam bowler',h:348},
+  {pc:'Muhammed Mishal',n:'Muhammed Mishal',sh:'MISHAL',num:'19',role:'Finisher',h:4},
+  {pc:'Ribin Paulose',n:'Ribin Paulose',sh:'RIBIN',num:'27',role:'Batting all-rounder',h:340},
+  {pc:'Biju Cherumambayil',n:'Biju Cherumambayil',sh:'BIJU',num:'24',role:'Bowler',h:344},
+  {pc:'Shaheen Syed',n:'Shaheen Syed',sh:'SHAHEEN',num:'16',role:'All-rounder',h:340},
+  {pc:'SHINAJ NAWSHAD POOVAN KULATHIL',n:'Shinaj Nawshad',sh:'SHINAJ',num:'18',role:'Bowler',h:348},
+  {pc:'Musthafa TMK',n:'Musthafa TMK',sh:'MUSTHAFA',num:'25',role:'Bowler',h:336},
+  {pc:'Rizal Mohammed',n:'Rizal Mohammed',sh:'RIZAL',num:'99',role:'Bowler',h:344},
 ];
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const statFor=name=>PLAYERS.players.find(p=>(p.pcName||p.name).toLowerCase()===name.toLowerCase());
@@ -289,7 +289,7 @@ function chips(st){if(!st)return[];const b=st.batting,w=st.bowling,c=[];
   if(w.wkts)c.push([w.wkts,'Wickets']);if(w.wkts>=5&&w.best)c.push([w.best,'Best']);if(w.wkts>=5&&w.econ)c.push([w.econ.toFixed(2),'Economy']);
   if(st.catches>=5)c.push([st.catches,'Catches']);c.push([st.matches,'Matches']);return c.slice(0,7)}
 const tagFor=st=>{if(!st)return'';const b=st.batting,w=st.bowling,x=[];if(b.runs)x.push(b.runs.toLocaleString('en-GB')+' runs');if(w.wkts)x.push(w.wkts+' wickets');return x.join(', ')+' since 2024'};
-const players=FEATURED.map(f=>({...f,short:f.n.split(' ')[0].replace(/^Muhammed$|^Mohammed$/,f.n.split(' ').slice(-1)[0]),slug:slug(f.n),get s(){return chips(statFor(f.pc))}}));
+const players=FEATURED.map(f=>({...f,short:f.sh||f.n.split(' ')[0].replace(/^Muhammed$|^Mohammed$/,f.n.split(' ').slice(-1)[0]),slug:slug(f.n),get s(){return chips(statFor(f.pc))}}));
 let cur=0,timer,t0,squadOn=false;
 if(document.getElementById('stage')){
 const SIL='<svg class="sil" viewBox="0 0 100 120" preserveAspectRatio="xMidYMax meet" aria-hidden="true"><circle cx="50" cy="38" r="19"/><path d="M8 120c0-26 18-44 42-44s42 18 42 44z"/></svg>';
