@@ -220,6 +220,7 @@ table.stats td.hl{color:var(--chalk);font-weight:600}
 .record b{display:block;font:400 34px/1 var(--f-display);font-variant-numeric:tabular-nums}
 .record span{font:500 10px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--chalk-dim)}
 .record .w b{color:#7fd88f}.record .l b{color:var(--leather-hot)}
+@media (max-width:560px){.record{gap:6px}.record div{padding:10px 8px}.record b{font-size:26px}.record span{font-size:9px;letter-spacing:.04em}}
 .more{margin-top:14px}
 .sc.a .badge{background:rgba(236,230,214,.08);color:var(--chalk-dim);border:1px solid var(--line)}
 .fx.off{grid-column:1/-1;min-height:0;gap:18px}
